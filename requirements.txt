@@ -1,0 +1,7 @@
+duckduckgo_search==5.3.1b1
+pip install --upgrade --quiet duckduckgo-search
+llama-index-tools-duckduckgo
+llama-index
+sqlalchemy
+chainlit
+duckduckgo_search

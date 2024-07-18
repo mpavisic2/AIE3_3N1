@@ -1,0 +1,350 @@
+oib (vat_id): 94517771016, naziv: DAVOR, limarski obrt, vl. Davor Kolobara, Kutina, Podravska ulica 1
+oib (vat_id): 77780923892, naziv: RV CERAMIC j.d.o.o.
+oib (vat_id): 96264740552, naziv: Dea Design, obrt za dizajn, vl. Andrea Orsag Veg, Velika Gorica, Kralja Stjepana Tomaševiæa 17
+oib (vat_id): 38075463150, naziv: ANÐEL, pekarsko-trgovaèki obrt, vl. Petrin Lekaj, Ðakovo, Matije Gupca 50
+oib (vat_id): 76579355029, naziv: GB MONT j.d.o.o.
+oib (vat_id): 3196916150, naziv: SREÆA, obrt za autotaksi prijevoz, vl. Josip Josiæ, Dubrovnik, Koritska 26
+oib (vat_id): 84535636672, naziv: NOUVEAU VISAGE d.o.o.
+oib (vat_id): 69495777111, naziv: TERANINO j.d.o.o.
+oib (vat_id): 86987666646, naziv: ODVJETNIÈKI URED OZREN TATARAC
+oib (vat_id): 68670015693, naziv: CEPELIN MEDIA - SPALATO PLIN, obrt za usluge, vl. Milan Èoriæ, DICMO PRISOJE, Dicmo Prisoje 29B
+oib (vat_id): 9381978215, naziv: Grbeša graðenje j.d.o.o.
+oib (vat_id): 38846145717, naziv: POWERSOFT d.o.o.
+oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.
+oib (vat_id): 48572554994, naziv: SPARTAN PRO d.o.o.
+oib (vat_id): 80248888675, naziv: OBRT ZA UGOSTITELJSTVO 'CALSANTA', VL. MARTINA BENUSSI, ROVINJ, SVETOG KRIŽA 4
+oib (vat_id): 50084380659, naziv: MIHO, Obrt za ostale završne graðevinske radove, vl. Miho Pavloviæ, Èelopeci, Lazine 22
+oib (vat_id): 5701394207, naziv: AGENCIJA MT, obrt za organizaciju poslovnih i zabavnih dogaðaja, vl. Edita Šanoviæ Bolkoviæ, Pula, Krležina 27
+oib (vat_id): 30004474604, naziv: TROTULA d.o.o.
+oib (vat_id): 67518551231, naziv: OBRT ZA PRIJEVOZ ''TURKE'', DAMIR ŠTIMAC, KUŽELJ, TURKE 26
+oib (vat_id): 63914995885, naziv: MILJOKAZ-PROJEKT, obrt za poslovno savjetovanje, Mario Protulipac, Karlovac, Banija 146
+oib (vat_id): 64928872031, naziv: RI Marina Exclusive d.o.o.
+oib (vat_id): 62402090817, naziv: METALIKA, obrt za video usluge, vl. Vedran Franèula, Ližnjan, Ribarska ulica 6
+oib (vat_id): 73755775457, naziv: ODVJETNIÈKI URED NATALIJA WEISS
+oib (vat_id): 30656039900, naziv: ZMAJ, OBRT ZA ISTRAŽIVANJE TRŽIŠTA, POSREDOVANJE I PROMIDŽBU, VL. DANIJEL DVORSKI, LJUBEŠÆICA, ZAGREBAÈKA 67 B
+oib (vat_id): 5066546900, naziv: SARTANA d.o.o.
+oib (vat_id): 42016852792, naziv: Lukabo Marketing d.o.o.
+oib (vat_id): 43496259355, naziv: R2, obrt za knjigovodstvene usluge, vl. Krešimir Rastovski, Karlovac, Trg Josipa Broza 4
+oib (vat_id): 39322881188, naziv: MIR ŠIBENIK d.o.o.
+oib (vat_id): 76456616763, naziv: OLEANDAR, obrt za èišæenje, vl. Vlasta Božac, Pula, Prilaz Pjacal 9
+oib (vat_id): 95280509843, naziv: MORE IDEA d. o. o.
+oib (vat_id): 60699904934, naziv: Men's Social Club, obrt za usluge, vl. Christian Nujster, Zagreb, Saborska ulica 18
+oib (vat_id): 26917743473, naziv: Qualis Protectus, obrt za brokerske poslove u osiguranju i reosiguranju, vl. Damir Božièeviæ, Zagreb, Ulica Ljudevita Posavskog 36 B
+oib (vat_id): 15111660772, naziv: OSIPO DOM j.d.o.o.
+oib (vat_id): 87729155790, naziv: GRADITELJ SNOVA j.d.o.o.
+oib (vat_id): 98122800195, naziv: PAMI, uslužni obrt vl. Danijela Batiniæ, Supetar, Put gaja 15.
+oib (vat_id): 13718016707, naziv: Omnia, obrt za savjetovanje, vl. Iva Jakšiæ, Bilice, Podlukovnik 22
+oib (vat_id): 10561137579, naziv: FISKUS d. o. o.
+oib (vat_id): 15021230075, naziv: DELTA SOLARI, obrt za trgovinu, vl. Goran Uzelac, Okrug Gornji, Put Planikovice 2
+oib (vat_id): 23808339024, naziv: UKUSAN OBROK d.o.o.
+oib (vat_id): 8096319074, naziv: OBRT ZA TRGOVINU 'DAC' VL. DARKO DUŠAK, JABLANOVEC, 2. ODV. KAMENITIH SVATOVA 3
+oib (vat_id): 54206663975, naziv: MISS 21/90 j.d.o.o.
+oib (vat_id): 85688431254, naziv: GRAÐEVINAR, d.o.o.
+oib (vat_id): 33802023085, naziv: HOBA d.o.o.
+oib (vat_id): 67702304321, naziv: DAVID UGOSTITELJSTVO d.o.o.
+oib (vat_id): 9822900457, naziv: ŠTEFAN, obrt za usluge, vl. Štefan Markoviæ, Stari Grad,Ulica kralja Zvonimira 1
+oib (vat_id): 48167456275, naziv: Stoikeo, obrt za web i marketing, vl. Manuela Juras, Petrinja, Malinova 18
+oib (vat_id): 7098731089, naziv: AUTOMEHANIÈARSKA RADIONICA, ZVONKO GUÈIÆ, MALA BUNA, TUROPOLJSKA 5
+oib (vat_id): 45113832769, naziv: IVICA-ADAPTACIJA j.d.o.o.
+oib (vat_id): 32630534082, naziv: L B N d.o.o.
+oib (vat_id): 44793513692, naziv: MIVA TRADING d.o.o.
+oib (vat_id): 72570083506, naziv: Blockthree Europe d.o.o.
+oib (vat_id): 78826890784, naziv: MIDEA, obrt za trgovinu, vl. Mihaela Pernat, Rovinj, Obala palih boraca NOR 1
+oib (vat_id): 24903744819, naziv: FM GRAÐEVINAR, obrt za graðevinarstvo, vl. Muhamed Fehriæ, Hvar, Marina Gazaroviæa 12
+oib (vat_id): 841562214, naziv: GROUND CONTROL PRODUCTION, OBRT ZA IZVOÐAÈKU DJELATNOST I OSTALE USLUGE, VL. DANIJEL ŠKRBO, ZAGREB, BADEMOVAC 25
+oib (vat_id): 5447031381, naziv: GRADNJA MIS d.o.o.
+oib (vat_id): 91606657106, naziv: Akterpublic Media d.o.o.
+oib (vat_id): 37366866318, naziv: 1985 Ana Agro d.o.o.
+oib (vat_id): 50651734806, naziv: VILLA PRIVILEGGIO, obrt za ugostiteljstvo, vl. ROBERTO PRIVILEGGIO, MOŠÆENIÈKA DRAGA, POTOK 5 A
+oib (vat_id): 97666518126, naziv: VIGO ADRIA d. o. o.
+oib (vat_id): 76235387605, naziv: HRV i ja, obrt za videoprodukciju i usluge, vl. Branimir Kamber, Zadar, Brune Bušiæa 10
+oib (vat_id): 51627097490, naziv: EKO-GEA d.o.o.
+oib (vat_id): 74486902737, naziv: SEDMI ODJEL d.o.o.
+oib (vat_id): 59338429119, naziv: SELIDBE - PROFI j.d.o.o.
+oib (vat_id): 33475403742, naziv: CAVALLO NERO d.o.o.
+oib (vat_id): 32958148848, naziv: ZADRUGA KUDUZ
+oib (vat_id): 93606821751, naziv: automehanièarski obrt 'SOVA', vl. Ivo Soviæ, Knin, 4. GBR bb
+oib (vat_id): 26108086706, naziv: LAGOM STUDIO d.o.o.
+oib (vat_id): 87096588160, naziv: TOM GRADNJA j.d.o.o.
+oib (vat_id): 77992900112, naziv: OBRT GRADNJA, GRAÐEVINSKI OBRT, VL. DRAŽEN NOVAK, ZAGREB, VEBERA TKALÈEVIÆA 42
+oib (vat_id): 73436448692, naziv: MATIV, OBRT ZA PROIZVODNJU, VL. IVNA MATIÈEC IVANIÆ, ZAGREB, ALAGOVIÆEVA 28
+oib (vat_id): 71388527784, naziv: MARTIN, obrt za ribarstvo, vl. Martin Lapov, Jezera, Don Antuna Božiæa 17
+oib (vat_id): 95229875224, naziv: POLJOPRIVREDNI OBRT 'BURETIÆ' BOLJUNSKO POLJE, MANDIÆI 8, vl.JOSIP BURETIÆ
+oib (vat_id): 72467513852, naziv: OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO IVICA LOVRINÈEVIÆ
+oib (vat_id): 79256796468, naziv: Hrvatski katolièki radio
+oib (vat_id): 61045347783, naziv: DIGITAL SUPER SELLER j.d.o.o.
+oib (vat_id): 80109305109, naziv: ADRIA NORMA d.o.o.
+oib (vat_id): 2743799880, naziv: ABONOS, obrt za proizvodnju i usluge, VL. ZORAN KRCUNOVIÆ, ZAGREB, ILICA 462
+oib (vat_id): 1695361720, naziv: METALGRAFIÈKI OBRT, vl. SANJA BRAJKOVIÆ, GAREŠNICA, KRALJA TOMISLAVA 3
+oib (vat_id): 95551753631, naziv: LOGITA d.o.o.
+oib (vat_id): 49409393679, naziv: 792MEDIA, obrt za videoprodukciju i usluge, vl. Borna Vincek, Molve, Marijanska 67
+oib (vat_id): 33389245211, naziv: osmi putnik j.d.o.o. u steèaju
+oib (vat_id): 72691111897, naziv: FAFI DIGITAL d.o.o.
+oib (vat_id): 63144865773, naziv: Ugostiteljski obrt 'DAVID' Pag , Kralja Tomislava 8, vl. Helena Grubišiæ
+oib (vat_id): 90533805929, naziv: SANDRA, obrt za ugostiteljstvo, vl. Ivan Blajiæ, Šibenik, Vladimira Nazora 7
+oib (vat_id): 61976485038, naziv: SD PLUS, OBRT ZA USLUGE, VL. SRÐAN DOŽAI, ZAGREB, ULICA DIVKA BUDAKA 1 D
+oib (vat_id): 11921894838, naziv: RE-FOOD TRADE d.o.o.
+oib (vat_id): 9340422225, naziv: SAMÈOVIÆ d.o.o.
+oib (vat_id): 22134795090, naziv: OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO NIKOLA BOŽIÆ
+oib (vat_id): 59790393052, naziv: OKUS SOLI d.o.o.
+oib (vat_id): 79174502895, naziv: S E V E R METALSKI OBRT I TRGOVINA vl. Tihomir Sever Brezje 28
+oib (vat_id): 91713123814, naziv: ITm-digital, obrt za izradu internet stranica i promidžbu,vl.Toni Maras,Gospiæ,Jasikovaèka ulica 177
+oib (vat_id): 52472680428, naziv: URBANISTIÈKI INSTITUT HRVATSKE d.o.o.
+oib (vat_id): 52260513562, naziv: ZG CENTAR HOTELI d.o.o.
+oib (vat_id): 51821528427, naziv: ECO NOLI d.o.o.
+oib (vat_id): 22420874626, naziv: SWIFT BOAT d.o.o.
+oib (vat_id): 19625006447, naziv: LOGOSOFT d.o.o.
+oib (vat_id): 16107276270, naziv: E - CAD d. o. o.
+oib (vat_id): 73222432084, naziv: 'HARŠA' Obrt za trgovinu, usluge i izdavaštvo-vl. ALEN ŠILOBOD - BREGANA, Ante Starèeviæa 15
+oib (vat_id): 79960810884, naziv: METZ SAVJETOVANJE d.o.o.
+oib (vat_id): 62851849856, naziv: ENSAGO j.d.o.o.
+oib (vat_id): 33117612310, naziv: HUM NAKLADA d.o.o.
+oib (vat_id): 94660605862, naziv: HALBLEITER d.o.o.
+oib (vat_id): 28719675137, naziv: ZVONIMIR d.o.o.
+oib (vat_id): 98686076589, naziv: EUVITIS, obrt za struène, znanstvene i obrazovne usluge, vl. Edi Maletiæ, Zagreb, Jablanska 70
+oib (vat_id): 18765877558, naziv: PAPILLON TRADE d.o.o.
+oib (vat_id): 90083450343, naziv: LATO, d.o.o.
+oib (vat_id): 30301351920, naziv: STOMATOLOŠKA ORDINACIJA KOMAR ETELKA
+oib (vat_id): 31281127184, naziv: IMPULS 2000 d.o.o.
+oib (vat_id): 22315561528, naziv: TRANSFERS TOMA, obrt za prijevoz putnika, vl. Toma Vudri×, Okrug Gornji, Lokve 10
+oib (vat_id): 38642911821, naziv: SINIŠA, OBRT ZA USLUGE, VL. MATIJA JANKULIJA, ZAGREB, II. STRUGE 57
+oib (vat_id): 36228313169, naziv: ABILITY, OBRT ZA ZAVRŠNE RADOVE U GRAÐEVINI, VL. ZVONIMIR HODAK, SLAVONSKI BROD, NASELJE BISKUPA ÆIRILA KOSA 10
+oib (vat_id): 60775361227, naziv: MARINA ZATON d.o.o.
+oib (vat_id): 86769667057, naziv: STOLARIJA VUKSAN, obrt za proizvodnju i usluge, vl. Alen Vuksan, Karlovac, Zadobarje 2 A
+oib (vat_id): 59808440164, naziv: ' GROŠ ' UGOSTITELJSTVO I PRIJEVOZ, VL. KRISTIJAN KOLAR, ZAGREB, HORVAÆANSKA CESTA 156
+oib (vat_id): 51555198646, naziv: JELJENI? TRAVEL, obrt za autotaksi prijevoz, vl. Emanuel Jeljeni?, Nova Mokošica, Od Izvora 22
+oib (vat_id): 30941747496, naziv: MARIÆ PROM d.o.o.
+oib (vat_id): 35022400000, naziv: GIARDINO, obrt za usluge, vl. Luka Pejakoviæ, Punat, Stari klanac 15
+oib (vat_id): 6007795983, naziv: DOMIMED CONSULTING j.d.o.o.
+oib (vat_id): 55862816400, naziv: Abilio Solutions d.o.o.
+oib (vat_id): 11124019864, naziv: FRANE PROJEKTI j.d.o.o.
+oib (vat_id): 79222769344, naziv: Piškur projekti d. o. o.
+oib (vat_id): 88333153470, naziv: K, obrt za ugostiteljstvo, vl. Josip Klapan, Zadar, Ante Starèeviæa 9
+oib (vat_id): 72655751400, naziv: ALPHA DOMUS d.o.o.
+oib (vat_id): 13714140939, naziv: KRISTINA OBERLING photo & design j.d.o.o.
+oib (vat_id): 98975545380, naziv: PRIRODNI PRODUKTI d.o.o.
+oib (vat_id): 53781116251, naziv: UGOSTITELJSKI OBRT, VL. MARIJANA ANTOLIÆ, ZAGREB, V. RAVNICE 10
+oib (vat_id): 58397585635, naziv: arhitektonski studio.aula d.o.o.
+oib (vat_id): 4801460378, naziv: DLK PROJECT d.o.o.
+oib (vat_id): 59948558451, naziv: TWINPORT MARINE d.o.o.
+oib (vat_id): 3057717969, naziv: CONVOCO d.o.o.
+oib (vat_id): 642756969, naziv: TONKA, turistièki obrt, vl. Antonija Kapetanoviæ, Dubrovnik, Žuljanska 1
+oib (vat_id): 70801780777, naziv: MARKOIL d.o.o.
+oib (vat_id): 25911715404, naziv: ALEX, OBRT ZA USLUGE I TRGOVINU, VL. DENIS JAKŠIÆ, ZAGREB, UGLJANSKA 7
+oib (vat_id): 44409843433, naziv: KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANIÆEVA 18
+oib (vat_id): 9415017918, naziv: CASINO CLUB CAROLINAMAR d.o.o.
+oib (vat_id): 37092128566, naziv: PROGRESSIVE Projects, obrt za savjetovanje i usluge, vl. Jasna Fridel, Kaštel Kambelovac, Kralja Krešimira 74C
+oib (vat_id): 61394379839, naziv: TRGOVINA AUTODIJELOVA, MOPEDA I DIJELOVA ZA MOPED 'VG - AUTO', VL. DAVOR BARIŠIÆ, VELIKA GORICA, SLAVKA KOLARA 71
+oib (vat_id): 34722387252, naziv: AUTORADIONA 'BABIÆ' VL. DANIJEL BABIÆ, LIPOVLJANI, ŽELJANSKA 11
+oib (vat_id): 70334790491, naziv: M.C. JAKOVIÆ d.o.o.
+oib (vat_id): 75241299212, naziv: BS obrt za poslovno savjetovanje, VL. BRANIMIR STOJANOVIÆ, BABINA GREDA, MIJATA STOJANOVIÆA 46
+oib (vat_id): 13863576431, naziv: MJ PREMIUM UGOSTITELJSTVO d.o.o.
+oib (vat_id): 68090497025, naziv: COCO, OBRT ZA USLUGE, VL. VALENTINA ÆORLUKA, ZAGREB, IVANIÆEVA 19
+oib (vat_id): 32839063963, naziv: Osnovna škola 'Ivan Kozarac'
+oib (vat_id): 34385614995, naziv: SIX OF SPADES j.d.o.o.
+oib (vat_id): 1232373629, naziv: ORDINACIJA OPÆE MEDICINE, RASPOVIÆ LADA
+oib (vat_id): 43525278196, naziv: Remote work d.o.o.
+oib (vat_id): 166446002, naziv: Tonnta Residence d.o.o.
+oib (vat_id): 88088383589, naziv: SMART OFFICE SOLUTION d.o.o.
+oib (vat_id): 10337787394, naziv: JELENA, obrt za èišæenje, vl. Jelena Pecirep, Pula, Studenèeva ulica 45
+oib (vat_id): 35729199535, naziv: KERATIL, OBRT ZA USLUGE, vl. ANTON BILUŠIÆ, RIJEKA, SVILNO 55
+oib (vat_id): 56565042889, naziv: PODUZETNIÈKI CENTAR ÐAKOVO d.o.o.
+oib (vat_id): 64886222914, naziv: DIM DIZAJN d.o.o.
+oib (vat_id): 39389879664, naziv: ALEGRE, obrt za poduku i usluge, vl. Ines Èulo, Osijek, Vukovarska cesta 10
+oib (vat_id): 92265865220, naziv: Vjetroelektrana Koèinje Brdo d.o.o.
+oib (vat_id): 6561814833, naziv: KLABAN PETAR OPG
+oib (vat_id): 28288265905, naziv: ODVJETNIÈKI URED MIRJANA ŽRVNAR
+oib (vat_id): 15269176954, naziv: CHIC boutique, obrt za trgovinu, vl. Antonija Paliæ, Šibenik, Stjepana Radiæa 71
+oib (vat_id): 50257854216, naziv: MAÈIÆ, zajednièki obrt za ugostiteljstvo i usluge, vl. Katarina Mediæ i Ante Mediæ, Brela, Obala kneza Domagoja 74,
+oib (vat_id): 10669537483, naziv: SWIETELSKY Baugesellschaft m.b.H.
+oib (vat_id): 51486107863, naziv: OBRT ZA CESTOVNI PRIJEVOZ ROBE I PUTNIKA T A F, VL. MARA JUJNOVIÆ, MAKARSKA, NIKOLE TESLE 37
+oib (vat_id): 4897700348, naziv: Namoroka j.d.o.o.
+oib (vat_id): 83276226815, naziv: AP-RENT, obrt za zakup nekretnina, vl. Alen Perèi, Ðakovo, Ante Starèeviæa 249
+oib (vat_id): 77593278261, naziv: NIKA ART, uslužni obrt, vl. Veronika Žirkoviæ, Gornji Kuæan, Varaždinska ulica 83
+oib (vat_id): 88989562890, naziv: UGOSTITELJSTVO ' STUBIÈANKA ' vl. STJEPAN PUTAK, DONJA STUBICA, GOLUBOVEÈKA 36A
+oib (vat_id): 94592922124, naziv: REVAN, obrt za usluge i trgovinu, vl. Juraj Podgajski, Zagreb, Siget 14 E
+oib (vat_id): 25922506324, naziv: LABELLE d. o. o.
+oib (vat_id): 51838697127, naziv: FITOAROMARIUM, obrt za usluge i savjetovanje, vl. Martina Petrak, Karlovac, Radoslava Lopašiæa 4
+oib (vat_id): 49887955927, naziv: NINI TOURS LUXURY j.d.o.o.
+oib (vat_id): 80535002483, naziv: POMALO, obrt za trgovinu, vl. Ivan Sikiriæ, Bibinje, Branimirova obala 1
+oib (vat_id): 29845216564, naziv: VOÆE I POVRÆE I MINI MARKET, Jaumi Ajrulai, Vojniæ, Karlovaèka 9
+oib (vat_id): 93560452120, naziv: 14 IN, obrt za pripremne radove na gradilištu, vl. Ivan Radiæ, Èibaèa, Put Pera Kojakoviæa 182
+oib (vat_id): 98996478585, naziv: STIGRA-OBRT ZA GRAÐEVINARSTVO I CESTOVNI PRIJEVOZ vl. ANTO STIPIÆ DOMAGOVIÆ 111 C JASTREBARSKO
+oib (vat_id): 88969099231, naziv: DOJÈIÆ MARIJA LJEKARNA
+oib (vat_id): 88505066599, naziv: INTERIA j. d. o. o.
+oib (vat_id): 60770198608, naziv: PETROL & GAS d.o.o.
+oib (vat_id): 18056191355, naziv: BATELAN, OBRT ZA UGOSTITELJSTVO, vl. IVA SUZIÆ PAVIA, BRSEÈ, BRSEÈ 4 A
+oib (vat_id): 99613473971, naziv: LENS d.o.o.
+oib (vat_id): 33780188398, naziv: BRO-PROM j.d.o.o.
+oib (vat_id): 50116298868, naziv: DRMEŠ-PUNK j.d.o.o.
+oib (vat_id): 8090029162, naziv: 'KIPCO' LIMARIJA I GALANTERIJA, DAMIR KIPKE, STRAHONINEC, JOSIPA HORVATA ZDELARA 1 A
+oib (vat_id): 71746133983, naziv: MED MAN, obrt za raèunalno programiranje, vl. Filip Vuksanoviæ, Slavonski Brod, Ulica Ivana Belostenca 22
+oib (vat_id): 71100706202, naziv: KLIK, obrt za raèunalno programiranje, vl. Krešimir Mikiæ, Osijek, Ulica Huge Conrada Hötzendorfa 10
+oib (vat_id): 29405603944, naziv: Craft punkt Radiæeva j.d.o.o. u steèaju
+oib (vat_id): 79382869006, naziv: Steèajna masa iza VILLA KATARINA d. o. o.
+oib (vat_id): 80761173971, naziv: Instalacije Beljak j.d.o.o.
+oib (vat_id): 6268307886, naziv: Grandiosa Design Zagreb d.o.o.
+oib (vat_id): 6769706904, naziv: ART OF DESIGNING THE WORLD j.d.o.o.
+oib (vat_id): 36378746670, naziv: E-PRIJEVOZ, OBRT ZA PRIJEVOZ, USLUGE I TRGOVINU, VL. ORHAN MEMEDI, ZAGREB, II. RESNIK 15 C
+oib (vat_id): 21831818540, naziv: A2B Mont systems j.d.o.o.
+oib (vat_id): 19075967961, naziv: VANDO, OBRT ZA FRIZERSKE USLUGE, VL. JELA GRBAVAC, ZAGREB, POLJIÈKA ULICA 1
+oib (vat_id): 291437670, naziv: DJELÈIÆ d.o.o.
+oib (vat_id): 68970251720, naziv: MENDULA, obrt za graditeljstvo i pomorski prijevoz, vl. David Peršiæ, Pula, Valdebeèki put 17
+oib (vat_id): 9049458244, naziv: CROBINSON, obrt za usluge u turizmu, vl. Leonardo Grubeliæ, Srima, Srima XI 4
+oib (vat_id): 45213922241, naziv: DIVA Design, obrt za grafièki dizajn i usluge, vl. Kristina Iviæ, Sesvete, Ulica Krešimira Kovaèeviæa 4
+oib (vat_id): 70831121966, naziv: DALMATA LUCHI d.o.o.
+oib (vat_id): 10728064128, naziv: ATELIER BOSCHI d.o.o.
+oib (vat_id): 66433322993, naziv: DaNi, obrt za usluge i trgovinu, vl. Nikola Jakšiæ, Farkaševec Samoborski, Farkaševec Samoborski 43
+oib (vat_id): 43420386536, naziv: 'KNJIGOVODSTVO KNEŽEVIÆ' Obrt za raèunovodstveno-knjigovodstvene poslove i porezno savjetovanje
+oib (vat_id): 34238048306, naziv: AMERICAN BUREAU OF SHIPPING - RIJEKA d. o. o.
+oib (vat_id): 20752352202, naziv: Ustanova AURA FIT
+oib (vat_id): 5601776491, naziv: TEXO PROJEKT d.o.o.
+oib (vat_id): 97535893361, naziv: PEROTERM, obrt za instalacije grijanja, vl. Petar Tuniæ, Laslovo, Kolodvorska 20 A
+oib (vat_id): 1100537102, naziv: METEOR, d.o.o. i putnièka agencija
+oib (vat_id): 98352556963, naziv: GRAÐEVINSKI OBRT 'KULA', vl. ZORAN STANKOVSKI, POREÈ, ROVINJSKA 2
+oib (vat_id): 71685046796, naziv: SAN TOURS d.o.o.
+oib (vat_id): 40753355397, naziv: Nezmeškal-boats d.o.o.
+oib (vat_id): 37803524154, naziv: BALANCA, obrt za usluge, vl. Maja Ivankoviæ, Klis, Kneza Mislava 20
+oib (vat_id): 53602769723, naziv: PURE TRADE CAR j.d.o.o.
+oib (vat_id): 446627948, naziv: ŠARÈEVIÆ ZLATKO OPG
+oib (vat_id): 8077436678, naziv: VISOÈANI, obrt za pripremne radove na gradilištu i trgovinu, vl. Anita Lujo, Visoèani, Donje selo 9
+oib (vat_id): 39649193126, naziv: MEDIA CONSULTING d.o.o.
+oib (vat_id): 21120853893, naziv: TAPETARIJA ŠURDOVEC j.d.o.o.
+oib (vat_id): 92556407495, naziv: OBRT ZA IZNAJMLJIVANJE PLOVILA ' RICO ' - ŠIBENIK, PUT ROKIÆA 1
+oib (vat_id): 66658321003, naziv: CVAJKO MOTORI, OBRT ZA TRGOVINU I SERVIS, VL. MIROSLAV BUTORAC, CRIKVENICA, VINODOLSKA 30
+oib (vat_id): 983991626, naziv: PUTNIK LIK, obrt za usluge, vl. Marko Kovaè, Split, Antofagaste 8
+oib (vat_id): 94698642455, naziv: IVAN LACKOVIÆ, OBRT ZA UGRADNJU STOLARIJE, VL. IVAN LACKOVIÆ, GORNJA BISTRA, STROJARSKA ULICA 16
+oib (vat_id): 16602387416, naziv: CHEF`S CORNER, ugostiteljski obrt, vl. Milan Klièkoviæ, Šodolovci, Branka Radièeviæa 37
+oib (vat_id): 85838876101, naziv: NIBON PAK d.o.o.
+oib (vat_id): 85140091316, naziv: GUGA NATURA j.d.o.o.
+oib (vat_id): 39528061950, naziv: MASLAÆ, obrt za cestovni prijevoz robe, vl. Lidija Maslaæ, Mokošica, Zamaslina 41 A
+oib (vat_id): 95439116601, naziv: KGD TIM j.d.o.o.
+oib (vat_id): 72057933854, naziv: OBRT ZA AUTOTAKSI PRIJEVOZ, VL. VITOMIR ŠUBAT, ZAGREB, ULICA ALEKSANDRA BRDARIÆA 5
+oib (vat_id): 39223854908, naziv: SPINA VITA, OBRT ZA MASAŽU, VL. VEDRAN PRIMORAC, ZAGREB, REMETE 62 A
+oib (vat_id): 87340936508, naziv: Studio Fabo, obrt za foto i video usluge, vl. Fabijan Ðukiæ, Vinkovci, Hvarska ulica 8
+oib (vat_id): 9661526637, naziv: TOTH, PODOPOLAGAÈKI OBRT VL. BENITO TOTH, LIPOVLJANI, ULICA JOSIPA KOZARCA 13
+oib (vat_id): 74427015432, naziv: CROATEL,d.o.o.
+oib (vat_id): 62508043585, naziv: A10 d. o. o.
+oib (vat_id): 66757955407, naziv: MAGIC BAR j.d.o.o.
+oib (vat_id): 79246041348, naziv: BRZI PUNJAÈ j.d.o.o.
+oib (vat_id): 39264061116, naziv: LU-MONT, obrt za montažu, održavanje i popravak kotlova i strojeva, vl. Ivica Lukaèek, Gornja Voæa 127
+oib (vat_id): 45614692535, naziv: AUTOFUTURA d.o.o.
+oib (vat_id): 22876904207, naziv: SCOOTERS j.d.o.o.
+oib (vat_id): 99959575780, naziv: CODE d.o.o.
+oib (vat_id): 49129895772, naziv: MARTA, obrt za povremeni prijevoz putnika, vl. Vido Škurla, Srebreno, Put Bruna Bušiæa 15
+oib (vat_id): 33381573097, naziv: PASSAGE - UGOSTITELJSKI OBRT, ÐAKOVO, B.J.JELAÈIÆA 35, VL. GORAN JELAŠ
+oib (vat_id): 62545501349, naziv: TAXI ANYTIME d.o.o.
+oib (vat_id): 6179561077, naziv: LAVANDA, OBRT ZA ÈIŠÆENJE, vl. LJILJANA DALSASO, RIJEKA, LUBANJSKI USPON 27
+oib (vat_id): 72579333181, naziv: GK PROFIL j.d.o.o.
+oib (vat_id): 14119241017, naziv: OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO STJEPAN LUKAR
+oib (vat_id): 20458658941, naziv: BRUTUS, obrt za osnovno èišæenje zgrada, vl. Mario Dikliæ, Moèiæi, Moèiæi 17
+oib (vat_id): 42115479386, naziv: OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO NADA PETKOVIÆ
+oib (vat_id): 67835851051, naziv: PELETI JAGIÆ, obrt za proizvodnju, vl. Nikola Jagiæ, Hrastovljan, Hrastovljan 62
+oib (vat_id): 28297716858, naziv: MininaMarina j.d.o.o.
+oib (vat_id): 27186384277, naziv: IntCon24 j.d.o.o.
+oib (vat_id): 88493657073, naziv: MAFIL j.d.o.o.
+oib (vat_id): 27945547946, naziv: RICO, obrt za trgovinu i ugostiteljstvo, vl. Mario Poliæ, Kijevo, Ulica klesara 1
+oib (vat_id): 75370780037, naziv: SUNÈANE VILE d.o.o.
+oib (vat_id): 99921726343, naziv: BAU ÈUPO ELEKTRO d.o.o.
+oib (vat_id): 70053987819, naziv: DOMINIK B poljoprivredni obrt, vl.Dominik Bokun, Hrastovac, Veliki Rastovac 36
+oib (vat_id): 57716585491, naziv: AUDAX d.o.o.
+oib (vat_id): 58152370875, naziv: DOMAÆE I FINO d.o.o.
+oib (vat_id): 76443383661, naziv: MALA IZ ZAPUNTE j.d.o.o.
+oib (vat_id): 93089139850, naziv: DUNDO MAROJE d.o.o.
+oib (vat_id): 25111713600, naziv: ELEKTRO OMOT, obrt za proizvodnju elektriène energije, vl. Tomislav Bojèiæ, Tenja, Ljudevita Gaja 14
+oib (vat_id): 12694213287, naziv: Ruby Jams, obrt za raèunalno programiranje, vl. Filip Pezer, Zagreb, Kutnjaèki put 4c
+oib (vat_id): 85099450846, naziv: ERACON, obrt za struèno savjetovanje i usluge, vl. Vesna Erakoviæ Haber, Zagreb, Ulica Aleksandra Ignacija Mikuliæa 7
+oib (vat_id): 47078361548, naziv: ADMINISTRATOR IT, obrt za informatièke usluge i trgovinu, vl. Danijel Repar, Kuæanci, Stjepana Radiæa 34
+oib (vat_id): 50428478860, naziv: Poljoprivredni obrt GRGO, vl. Kristina Musiæ, Lišane Ostrovièke, Lišane Ostrovièke 140
+oib (vat_id): 7508614226, naziv: TRGOVAÈKI OBRT 'ALISA' vl. ALMA ŠUŠNJAR, RIJEKA, VUKOVARSKA 23
+oib (vat_id): 93335978336, naziv: LIESE d. o. o.
+oib (vat_id): 7422413211, naziv: SET UP Consulting, obrt za poslovne usluge, vl. Stjepan Vlašiæ, Zagreb, Cvjetna cesta 7 A
+oib (vat_id): 75617807573, naziv: STEPI, obrt za ugostiteljstvo, vl. Silvano Stepèiæ, Stepèiæi, Stepèiæi 6
+oib (vat_id): 97493875746, naziv: TERMO RAŠIÆ, obrt za instalacije grijanja, vl. Joško Rašiæ, Glavina Donja, Glavina Donja 111
+oib (vat_id): 64768048358, naziv: ORDINACIJA OPCE MEDICINE DR.MED.LIOVIC-UMILJANOVIC ANA
+oib (vat_id): 73251209482, naziv: HOKI POKI, obrt za zabavne djelatnosti, vl. Irena Torbarina, Sukošan, 7. Domobranske pukovnije HV 101 D
+oib (vat_id): 85857025735, naziv: NAMURO FABINI j.d.o.o.
+oib (vat_id): 62920797760, naziv: M.B.M BEZINA d. o. o.
+oib (vat_id): 16265090775, naziv: Princess Yachts Adriatic d.o.o.
+oib (vat_id): 32960994665, naziv: Ljekarna DOMINKO
+oib (vat_id): 83586124911, naziv: PARO j. d. o. o.
+oib (vat_id): 83630676739, naziv: ALTICOM d.o.o.
+oib (vat_id): 62776937751, naziv: MARCIPAN d.o.o.
+oib (vat_id): 54177996122, naziv: TONI, obrt za usluge, vl. Anita Trevižan, Split, Put sv. Ižidora 46
+oib (vat_id): 4488702527, naziv: OBRT ZA HORTIKULTURU I UZGOJ ŽITARICA 'AGROBOR', VL. BORIS VEŠLIGAJ, ZAGREB, BIJENIK 92
+oib (vat_id): 95115891017, naziv: IVAN GRADNJA j.d.o.o.
+oib (vat_id): 89584175002, naziv: ICE MEDIA j.d.o.o.
+oib (vat_id): 59038459803, naziv: GANI d.o.o.
+oib (vat_id): 17638278442, naziv: FC BABY STAR, obrt za uslužne djelatnosti, vl. Mihaela Mihaliæ, Ðakovo, Mihanoviæeva 12
+oib (vat_id): 17238976711, naziv: ULTRA LUX d.o.o.
+oib (vat_id): 17863542417, naziv: SVEA EKONOMI d.o.o.
+oib (vat_id): 89989814718, naziv: OPG ALEKSANDAR PETROVIÆ
+oib (vat_id): 65813196004, naziv: ŠKET ÆURKOVIÆ d.o.o.
+oib (vat_id): 48978078405, naziv: EXPLORO VL.MATE JOVIÆ
+oib (vat_id): 42985853829, naziv: RADAL d. o. o.
+oib (vat_id): 29907795244, naziv: ZUBOTEHNIÈKI LABORATORIJ
+oib (vat_id): 18678935300, naziv: AUTOPRIJEVOZNIK, DUBRAVKO ŠRAJBEK, VARAŽDIN, HALLEROVA ALEJA 36
+oib (vat_id): 33076791519, naziv: Baltazar Style j.d.o.o.
+oib (vat_id): 82671518947, naziv: DIVES PROJEKT d.o.o.
+oib (vat_id): 91467117650, naziv: Phoenix-Fly d.o.o.
+oib (vat_id): 6323430851, naziv: IT MANAGEMENT d.o.o.
+oib (vat_id): 53510145651, naziv: SPECIJ.OFTALMOLOŠKA ORDINACIJA BAÈIÆ DINKO
+oib (vat_id): 11507796874, naziv: ODVJETNIÈKI URED MARINA FELLNER
+oib (vat_id): 45779486368, naziv: CONSUL, obrt za poslovno savjetovanje vl. Miroslav Matišiæ, Mastrinka, Ulica Ivana Mažuraniæa 13
+oib (vat_id): 18094899413, naziv: IMB INSTALACIJE, obrt za usluge, vl. Ivan Bulj, SUHAÈ, Suhaè 88
+oib (vat_id): 20145576145, naziv: NATURA KAMENJAK d. o. o.
+oib (vat_id): 79085468579, naziv: DB Engineering & Consulting GmbH
+oib (vat_id): 31728187872, naziv: TEHNOMODUS d.o.o.
+oib (vat_id): 78720433825, naziv: VERTO, ugostiteljski obrt, vl. Verica Bošnjakoviæ, B. J. Jelaèiæa 86
+oib (vat_id): 33786779467, naziv: IZVOR INFORMACIJA d.o.o.
+oib (vat_id): 47651785542, naziv: AUTO-ŠKOLA BUŽANÈIÆ, D.O.O. NAŠICE
+oib (vat_id): 29747498949, naziv: KOLONA, obrt za graðevinske radove, vl. Slobodan Laco, OTOK, Strana II 20
+oib (vat_id): 94621389939, naziv: ORICA d. o. o.
+oib (vat_id): 49886701260, naziv: SUPER GLANZ,obrt za èišæenje, vl. Nada Babiæ, Poreè, Varvari, Piantade 43
+oib (vat_id): 53771674959, naziv: StIv USLUGE d.o.o.
+oib (vat_id): 14667999105, naziv: Aututto Completo d.o.o.
+oib (vat_id): 21550067767, naziv: TRADICIJA I DOM Obrt za restauraciju,izradu i trgovinu tradicionalnog namještaja vl.Vjekoslav Iveziæ, Bratina 197
+oib (vat_id): 3758153279, naziv: FRIGEL d.o.o.
+oib (vat_id): 52509251557, naziv: SunnySide Property Management, obrt za upravljanje nekretninama, vl. Tanja Temšiæ, Višnjan, Trg Budièina 5
+oib (vat_id): 42601271109, naziv: Elektroservis i instalacije KRK vl. Iko Lukaèiæ
+oib (vat_id): 10618326160, naziv: SEOSKO DOMAÆINSTVO 'MATEZOVIÆ' IZLETIŠTE
+oib (vat_id): 50538528899, naziv: ENVIX PROFESSIONAL d.o.o.
+oib (vat_id): 72428773253, naziv: VIDEO PROFESIONAL, Franjo Turk, Pavlovec Zaboèki 20, Zabok
+oib (vat_id): 26756511178, naziv: DINOLORENA j.d.o.o. u steèaju
+oib (vat_id): 39422318776, naziv: FELIX REMUS d.o.o.
+oib (vat_id): 74922206040, naziv: PeroGorki, obrt za usluge, vl.Goran Perèiè, Sesvete, Ulica Ljudevita Posavskog 27b
+oib (vat_id): 61971372147, naziv: Glavaš INTEGRO j.d.o.o.
+oib (vat_id): 53275452810, naziv: TU SHOP j.d.o.o.
+oib (vat_id): 41429867098, naziv: VOLNIK d. o. o.
+oib (vat_id): 61830093372, naziv: ATLANTIC NAUTICA M&D j. d. o. o.
+oib (vat_id): 70573388637, naziv: DJ Stanovi d.o.o.
+oib (vat_id): 99238221645, naziv: 'KODOBA', knjigovodstvene usluge, Mladen Koziæ, Mokošica, Izmeðu dolaca 11
+oib (vat_id): 2656929099, naziv: ANTIVA d.o.o.
+oib (vat_id): 7705500482, naziv: OBRT MARIO TODOROVIÆ, obrt za obrazovanje i pouèavanje u podruèju sporta i rekreacije, Vl. Mario Todoroviæ, Pupnat, Kneže 68
+oib (vat_id): 77738802182, naziv: GRAÐEVNISKI OBRT 'GRADNJA MAGDIÆ' VRH, VL.DRAGAN MAGDIÆ, VRH 152
+oib (vat_id): 2569557109, naziv: MELINA j.d.o.o.
+oib (vat_id): 75076146429, naziv: ACUTIS, obrt za završne graðevinske radove,vl. Josip Biluš, Èista Velika, Èista Velika II 8
+oib (vat_id): 85089114877, naziv: ROLETE - INTERIJERI, obrt za trgovinu i usluge, vl. Mate Kataliniæ, Sesvete, Sesvetska cesta 13
+oib (vat_id): 19606321483, naziv: OTMIÈARI PAŽNJE, OBRT ZA USLUGE VL. NEVEN RINÈIÆ, ZAGREB, ULICA ZVONIMIRA CIMERMANÈIÆA 5
+oib (vat_id): 53022743746, naziv: KAŠÈE d.o.o.
+oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.
+oib (vat_id): 18376805890, naziv: RRIF-PLUS d.o.o.
+oib (vat_id): 14939106469, naziv: Zenith Management & Consulting d.o.o.
+oib (vat_id): 17364178953, naziv: MUHOBERAC j.d.o.o.
+oib (vat_id): 66716883667, naziv: DEA frizerski studio, vl. Andreja GRILEC KRALJ, Kumrovec, Risvica 103A
+oib (vat_id): 96397230931, naziv: L-trade d.o.o.
+oib (vat_id): 46332475458, naziv: GRADBENIK d.o.o.
+oib (vat_id): 55585156583, naziv: BARTOL MEDIA, obrt za izradu promotivnih materijala, vl. Bartol Jurlina, Zadar, Ulica Tomislava Ivèiæa 22 B
+oib (vat_id): 8762558356, naziv: URAR ŽIVKOVIÆ d.o.o.
+oib (vat_id): 98898144013, naziv: KV TRANSPORTI j.d.o.o.
+oib (vat_id): 41594251809, naziv: POSTOLARSKI OBRT 'BENC', ZAGREB, VL SINIŠA BENC, ZAGREB, SELSKA CESTA 116 B
+oib (vat_id): 37579948288, naziv: ODVJETNIÈKI URED TATJANA PETROVIÆ
+oib (vat_id): 42121450060, naziv: DOLAC CONSULTING, uslužni obrt vl. Danko Valenèiæ, Nerežišæa, Dolac 19 a.
+oib (vat_id): 50292028931, naziv: ID SISTEM, obrt za elektroinstalacije, vl. Ingmar Dobriæ, Pula, Kaštanjer 75
+oib (vat_id): 38603159660, naziv: Cosor obrt, kurirska služba, Mario Kosor, Šibenik, Sopaljska 43a
+oib (vat_id): 8028883719, naziv: INFINITY, FRIZERSKI STUDIO, vl. LEA SABLJAK, PLITVIÈKA JEZERA, JOSIPA JOVIÆA 2
+oib (vat_id): 13759550975, naziv: MSTV j.d.o.o.
+oib (vat_id): 28533390010, naziv: LORY ZLATARNICA
+oib (vat_id): 83518608492, naziv: NATURA DUBROVNIK j.d.o.o.
+oib (vat_id): 69630780200, naziv: HONESTE d.o.o.
+oib (vat_id): 84397175963, naziv: JAMBREŠIÆ, OBRT ZA GRAÐEVINARSTVO, VL. MIRKO JAMBREŠIÆ, ZAGREB, ÈMARCI 13

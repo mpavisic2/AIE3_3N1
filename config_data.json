@@ -1,0 +1,5 @@
+{
+    "company_data_input":"data\\sample_cb.dsv",
+    "scraped_data":"outputs\\public_data\\scraped_data.pickle"
+
+}

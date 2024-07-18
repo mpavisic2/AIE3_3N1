@@ -1,0 +1,41 @@
+img {
+    padding-top: 80px;
+    max-height: 150px !important;
+    color: #288b8f;
+}
+
+title {
+    content: "3N1"
+}
+
+.css-8mm1u0 {
+    background-color: #288b8f !important;
+    color: white;
+}
+
+/* Hide the original text */
+.css-pcmo6i {
+    visibility: hidden;
+}
+
+/* Insert new text using ::before */
+.css-pcmo6i::before {
+    content: 'Built by HT Team 1';
+    font-weight: bold;
+    color: #8ac7c7;
+    visibility: visible;
+    display: block;
+}
+
+svg[viewBox="0 0 1143 266"] {
+    visibility: hidden;
+}
+
+img[alt="watermark"] {
+    visibility: hidden;
+}
+
+.css-2y0hwe {
+    color: #49a3a3 !important;
+}
+
