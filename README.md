@@ -1,6 +1,6 @@
 ### Application Specification for "3n1" (Neural Nomad Nexus 1)
 
-![](public/Picture1.png)
+![](public/output-onlinepngtools.png)
 
 #### 1. Retrieving Company Information
 
