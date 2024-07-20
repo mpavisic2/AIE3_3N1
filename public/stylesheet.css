@@ -1,8 +1,9 @@
-img {
+img[alt="logo"] {
     padding-top: 80px;
     max-height: 150px !important;
-    color: #288b8f;
+    color: #196c6f;
 }
+
 
 title {
     content: "3N1"
@@ -38,4 +39,12 @@ img[alt="watermark"] {
 .css-2y0hwe {
     color: #49a3a3 !important;
 }
+
+.css-1sdo883 {
+    border-color: #ff0000; /* Change to your desired color */
+}
+
+/* Example CSS to change the message avatar appearance */
+/* Custom CSS to ensure the avatar is displayed */
+
 

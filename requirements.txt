@@ -5,3 +5,5 @@ llama-index
 sqlalchemy
 chainlit
 duckduckgo_search
+llama-index-vector-stores-qdrant 
+qdrant-client

@@ -1,6 +1,6 @@
 [project]
 # Whether to enable telemetry (default: true). No personal data is collected.
-enable_telemetry = true
+enable_telemetry = false
 
 
 # List of environment variables to be provided by each user to use the app.
@@ -53,7 +53,7 @@ edit_message = true
 
 [UI]
 # Name of the assistant.
-name = "3N1 bot"
+name = "3N1_bot"
 
 # Description of the assistant. This is used for HTML tags.
 # description = ""
@@ -88,12 +88,12 @@ custom_css = "/public/stylesheet.css"
 
 [UI.theme]
     default = "light"
-    #layout = "wide"
+    layout = "wide"
     #font_family = "Inter, sans-serif"
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
     #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    #paper = "#196c6f"
 
     [UI.theme.light.primary]
         main = "#008080"

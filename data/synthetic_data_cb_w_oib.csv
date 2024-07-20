@@ -1,4 +1,4 @@
-,customer_id,subscriber_id,tariff_model,ARPA_2024,ARPA_2023,Revenue_2023,Revenue_2024,Active_discount,Data_usage_(MB),Voice_usage,Roaming_usage,SMS_usage,Roaming_option_flag,Roaming_option_potential,Contract,Duration_Type,Fees_to_charge,Contract start date,Tariff_model_price,Price_overshoot,oib,27202
+,customer_id,subscriber_id,tariff_model,arpa_2024,arpa_2023,revenue_2023,revenue_2024,active_discount,data_usage_(MB),voice_usage,roaming_usage,sms_usage,roaming_option_flag,roaming_option_potential,contract,duration_Type,fees_to_charge,contract_start_date,tariff_model_price,price_overshoot,oib,old
 0,106,10600,m,33.66,37.24,446.88,403.91999999999996,18.84,3557,4068,339,426,Y,81,Y,12,16,1.2.2024,25,0.3463999999999998,94517771016,10600
 1,106,10618,xl,57.49,96.62,1159.44,689.88,10.15,3524,212,431,700,N,94,N,6,6,1.2.2024,65,-0.11553846153846148,94517771016,10618
 2,106,10614,m,33.57,36.21,434.52,402.84000000000003,8.13,5894,3541,330,276,N,43,N,6,4,1.2.2024,25,0.3428,94517771016,10614

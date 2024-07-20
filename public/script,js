@@ -1,0 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const avatars = document.querySelectorAll('.message-avatar');
+    avatars.forEach(avatar => {
+        avatar.classList.add('custom-avatar');
+    });
+});

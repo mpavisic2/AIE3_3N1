@@ -37,6 +37,12 @@ from llama_index.core.prompts import PromptTemplate
 
 from storage.prompt_store.prompts import N3Prompts
 import logging
+from utils.db_tools import internal_data_tool_360, engine2, Base, MobileCustomerBase
+from sqlalchemy.orm import sessionmaker
+
+Session = sessionmaker(bind=engine2)
+session = Session()
+Base.metadata.create_all(engine2)
 
 
 n3p = N3Prompts()
@@ -48,6 +54,7 @@ load_dotenv()
 
 logger.warning(Settings.llm.model)
 Settings.llm.model = "gpt-4o"
+Settings.llm.temperature=0.8
 logger.warning(Settings.llm.model)
 
 
@@ -102,6 +109,8 @@ token_counter = TokenCountingHandler(
     verbose=True
 )
 
+
+
 callback_manager = CallbackManager([token_counter])
 
 service_context = ServiceContext.from_defaults(callback_manager = callback_manager)
@@ -138,9 +147,9 @@ cid_qe_tool = QueryEngineTool(query_engine=cid_qe, metadata=ToolMetadata(
 
 # 02 nlsql query engine tool
 
-from llama_index.llms.openai import OpenAI
+# from llama_index.llms.openai import OpenAI
 
-llm = OpenAI(model="gpt-4o")
+# llm = OpenAI(model="gpt-4o")
 
 from sqlalchemy import create_engine
 engine = create_engine("sqlite+pysqlite:///:memory:")
@@ -177,7 +186,7 @@ examples = [
 sql_query_engine = NLSQLTableQueryEngine(
     sql_database=sql_database,
     tables=tables,
-    kwargs=examples
+    kwargs=examples,
     #text_to_sql_prompt=prompt_temp
     
     
@@ -185,6 +194,13 @@ sql_query_engine = NLSQLTableQueryEngine(
 
 
 DESCRIPTION = n3p.sql_qe_template["query_tool_engine_desc"]
+"""
+Ovaj alat koristi se za prevođenje upita na prirodnom jeziku u SQL upite s ciljem dobivanja informacija o mobilnim korisnicima iz baze podataka. Ključne značajke i pravila korištenja su:
+
+mobile_customer_base: Tablica koja sadrži podatke o mobilnim korisnicima.
+
+"""
+#n3p.sql_qe_template["query_tool_engine_desc"]
 
 # You only search by oib, if customer doesn't provide oib number or result of your query is empty answer 'I don't have that info'
 
@@ -339,14 +355,46 @@ c_abstract_tool = QueryEngineTool(query_engine=c_abstrract_qe, metadata=ToolMeta
 from llama_index.core.tools import FunctionTool
 
 
+def internal_data(qry):
+    """          
+            Alata treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
+            ako korigiraš upit pokreni taj korigirani upit
+            output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
+            input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
+
+    """
+
+
+    input_prompt = """          
+            Alat treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
+            ako korigiraš upit pokreni taj korigirani upit
+            output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
+            input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
+    """
+
+    resp_id = sql_tool.call("{} - {}".format(qry, input_prompt))
+
+    return resp_id
+
+internal_tool = FunctionTool.from_defaults(fn=internal_data, name="internal_data_tool", return_direct=True)
+
+
 ## 05. customer 360
 
 def customer_360_new(qry):
+
+    """
+    this tool gives customer 360 overview in Croatian language, input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
+    output of each part (public data, internal data, news) should not be longer than one 250 tokens
+    """
     #print(qry)
     #qry_dv =f"find avg for arpa, voice usage, discount, count of subscribers and overshoot and group by tariff_model and filter by oib = {qry['oib']}"
-    qry_dv = n3p.get_sql_report_prompt(qry)
+    #qry_dv = n3p.get_sql_report_prompt(qry)
     
-    resp_id = sql_tool.query_engine.query(qry_dv).response
+    # resp_id = sql_tool.call(qry_dv)
+
+    resp_id = internal_data_tool_360(qry['oib'])
+
 
     resp_news_data = web_search_tool.call(qry['naziv'])
 
@@ -360,7 +408,6 @@ def customer_360_new(qry):
 
 ## Internal data
 
-**db data**
 {resp_id}
     
 ## {qry['naziv']} in news
@@ -371,15 +418,15 @@ def customer_360_new(qry):
 
 tool_360 = FunctionTool.from_defaults(customer_360_new, 
     name="customer_360_new", 
-    description="this tool gives customer 360 overview in Croatian language, input of tool is dict in form eg. {{'oib': '1111111111','naziv': 'Naziv firme'}}",
-    return_direct=True)
+    #description="this tool gives customer 360 overview in Croatian language, input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}",
+    return_direct=False)
 
 # 06. build agenta
 
 from llama_index.core.agent import FunctionCallingAgentWorker, ReActAgent
 
 agent_worker2 = FunctionCallingAgentWorker.from_tools(
-    tools=[sql_tool, cid_qe_tool, tool_oib2name, c_abstract_tool, tool_360, web_search_tool],
+    tools=[sql_tool, cid_qe_tool, tool_oib2name, c_abstract_tool, tool_360, web_search_tool, internal_tool],
     verbose=True,
     system_prompt=n3p.nnn_agent
 )

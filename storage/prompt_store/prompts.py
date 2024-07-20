@@ -78,6 +78,26 @@ class N3Prompts:
             """}]
         }
         }
+        self.internal_360_id = { "user": {
+        "role": "user",
+        "content": [
+            {
+            "type": "text",
+            "text": ""
+            }
+        ]
+        },
+        "system": {
+        "role": "system",
+        "content":  [
+                {
+                "type": "text",
+                "text": """Ti si alat koji uljepšava tekst, formatiraj tablicu 1, a tablicu 2 pretovri u tekstualni oblik s opisom.
+                        Ne spomiji termine tablica 1 i 2 udogovoru, već im daj naziv prema podacima koje prikazuju.
+                        Trendovi su prikazani u postotcima!
+            """}]
+        }
+        }
         self.public_data_prompt = """Context information is below.\n
             ---------------------\n
             {context_str}\n
@@ -111,8 +131,22 @@ class N3Prompts:
 
     def get_sql_report_prompt(self, qry):
         self.customer_360_tool["sql_report_prompt"]=f"""
-        find avg for arpa, voice usage,roamin usage, count of subscribers and overshoot 
-        by tariff_model for oib {qry['oib']}"""
+        Upit treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
+        ako korigiraš upit pokreni taj korigirani upit
+        output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
+
+"""
+        #print(self.customer_360_tool)
+        self.customer_360_tool["sql_report_prompt"] = """
+1. **Broj priključaka u bazi za tvrtku:**
+    ```sql
+    SELECT count(subscriber_id) 
+    FROM mobile_customer_base 
+    where oib={oib}
+    ```
+
+        U odgovoru napiši sažetak ovih informacija uz napomenu kako je potrebno kontaktirati ove korisnike kojima ističe ugovor
+        """
 
         return self.customer_360_tool["sql_report_prompt"]
 
@@ -128,6 +162,20 @@ class N3Prompts:
         }
 
         return self.news_search_prompt["user"]
+    
+    def get_sql_360_prompt(self,str_input):
+        self.internal_360_id["user"] = {
+        "role": "user",
+        "content": [
+            {
+            "type": "text",
+            "text": f"{str_input}"
+            }
+        ]
+        }
+
+        return self.internal_360_id["user"]
+    
     
 
 
