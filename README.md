@@ -1,5 +1,3 @@
-Of course! Here is the translated specification for the application, with the name "3n1" or "Neural Nomad Nexus 1":
-
 ### Application Specification for "3n1" (Neural Nomad Nexus 1)
 
 ![](public/Picture1.png)
@@ -120,4 +118,4 @@ The company with OIB 3333333333 has 150 mobile subscribers. The average number o
 
 ### Conclusion
 
-This application utilizes a range of specialized tools for retrieving and analyzing company data. Each tool is designed for a specific function, enabling detailed and accurate data analysis. If you have additional questions or need customization, feel free to reach out!
+This application utilizes a range of specialized tools for retrieving and analyzing company data. Each tool is designed for a specific function, enabling detailed and accurate data analysis. 
