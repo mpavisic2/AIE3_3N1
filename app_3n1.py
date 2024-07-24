@@ -4,6 +4,8 @@ import chainlit as cl  # importing chainlit for our app
 from dotenv import load_dotenv
 
 from utils.nnn_tools import agent2
+import os
+import json
 
 @cl.set_starters
 async def set_starters():
@@ -28,13 +30,52 @@ async def set_starters():
 
 
 
+# File path for the JSON file
+json_file_path = 'feedback_data.json'
 
-@cl.on_chat_start  # marks a function that will be executed at the start of a user session
-async def start_chat():
+# Function to read existing data from JSON file
+def read_json_file(file_path):
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            return json.load(file)
+    else:
+        return []
+
+# Function to write data to JSON file
+def write_json_file(file_path, data):
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=4)
+
+# Define the feedback button callback
+@cl.action_callback("feedback_button")
+async def on_feedback(action):
+    # Retrieve the last question and answer from user session
+    last_interaction = cl.user_session.get("last_interaction")
+    if last_interaction:
+        # Add feedback to the interaction
+        last_interaction['feedback'] = action.value
+        # Read existing data
+        data = read_json_file(json_file_path)
+        # Append new interaction
+        data.append(last_interaction)
+        # Write updated data back to the file
+        write_json_file(json_file_path, data)
+        await cl.Message(content="Thank you for your feedback!").send()
+
+        # Remove feedback buttons
+        feedback_buttons = cl.user_session.get("feedback_buttons")
+        if feedback_buttons:
+            for button in feedback_buttons:
+                await button.remove()
+    else:
+        await cl.Message(content="No interaction found to add feedback to.").send()
 
 
 
-    cl.user_session.set("chain", agent2, )
+@cl.on_chat_start
+async def start():
+
+    cl.user_session.set("chain", agent2)
 
 
 
@@ -44,21 +85,28 @@ async def start_chat():
 async def main(message: cl.Message):
     chain = cl.user_session.get("chain")
 
-    import openai
+    resp1 = await chain.achat(message.content)
 
-    try:
-        # Vaš kod koji može izazvati BadRequestError
-        resp1 = await chain.achat(message.content)
-        resp=resp1.response
+    resp=resp1.response
+
+    actions = [
+        cl.Action(name="feedback_button", value="positive", label="👍", description="Thumbs up"),
+        cl.Action(name="feedback_button", value="negative", label="👎", description="Thumbs down")
+    ]
 
 
-    except openai.BadRequestError as e:
-       
-       resp="Pojavila se greška {e} na endpoint strani, ali ne brini, samo napiši novi upit!"
-
-    
-
-    msg = cl.Message(content=resp)
+    msg = cl.Message(content=resp, actions=actions)
 
     #print(msg.content)
     await msg.send()
+
+    # Store the question and answer in user session for later feedback
+    cl.user_session.set("feedback_buttons", msg.actions)
+    cl.user_session.set("last_interaction", {
+        "question": message.content,
+        "answer": resp,
+        "used_tool": [r.tool_name for r in resp1.sources] if len(resp1.sources)>0  else ["n/a"],
+        "raw_input": [r.raw_input for r in resp1.sources] if len(resp1.sources)>0  else ["n/a"],
+        "context": [r.text for r in resp1.source_nodes] if len(resp1.source_nodes)>0  else ["n/a"],
+        "context_score" : [r.score for r in resp1.source_nodes]  if len(resp1.source_nodes)>0  else 0
+    })

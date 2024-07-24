@@ -39,6 +39,7 @@ from storage.prompt_store.prompts import N3Prompts
 import logging
 from utils.db_tools import internal_data_tool_360, engine2, Base, MobileCustomerBase
 from sqlalchemy.orm import sessionmaker
+from utils.public_data_tools import pick_abstract_tool
 
 Session = sessionmaker(bind=engine2)
 session = Session()
@@ -46,7 +47,9 @@ Base.metadata.create_all(engine2)
 
 
 n3p = N3Prompts()
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger("moj loger")
+
 
 #Settings.llm = OpenAI(temperature=0.2, model="gpt-4o")
 
@@ -122,7 +125,7 @@ try:
     index = load_index_from_storage(storage_context)
     print('loading from disk')
 except:
-    documents = [Document(text=t) for t in text_list] #SimpleDirectoryReader(cid_path).load_data()
+    documents = [Document(text=t) for t in oib_list] #SimpleDirectoryReader(cid_path).load_data()
     # generating embeddings - default model openai ada
     index = VectorStoreIndex.from_documents(documents, service_context=service_context) # ,show_progress=True)
     index.storage_context.persist(persist_dir=vdb_output_cid)
@@ -347,17 +350,23 @@ abstract_qa_template = qa_prompt_abstract
 
 c_abstrract_qe = index_abstract.as_query_engine(text_qa_template=abstract_qa_template)
 
-c_abstract_tool = QueryEngineTool(query_engine=c_abstrract_qe, metadata=ToolMetadata(
-        name="public_company_data",
-        description="this tool finds company public information using company name"
-    ))
+#c_abstract_tool = QueryEngineTool(query_engine=c_abstrract_qe, metadata=ToolMetadata(
+#        name="public_company_data",
+#        description="this tool finds company public information using company name"
+#    ))
+
+
+c_abstract_tool = pick_abstract_tool()
+
+
+
 
 from llama_index.core.tools import FunctionTool
 
 
 def internal_data(qry):
     """          
-            Alata treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
+            Alat treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
             ako korigiraš upit pokreni taj korigirani upit
             output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
             input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}

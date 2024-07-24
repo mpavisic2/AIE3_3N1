@@ -93,7 +93,7 @@ class N3Prompts:
                 {
                 "type": "text",
                 "text": """Ti si alat koji uljepšava tekst, formatiraj tablicu 1, a tablicu 2 pretovri u tekstualni oblik s opisom.
-                        Ne spomiji termine tablica 1 i 2 udogovoru, već im daj naziv prema podacima koje prikazuju.
+                        Ne spomiji termine tablica 1 i 2 u odgovoru, već im daj naziv prema podacima koje prikazuju.
                         Trendovi su prikazani u postotcima!
             """}]
         }
@@ -103,7 +103,7 @@ class N3Prompts:
             {context_str}\n
             ---------------------\n
             Given the context information and not prior knowledge, 
-            find and summarize company public data\n
+            Find and summarize company public data\n
             Analyse company financial trend if data is provided in the context\n
             Query: {query_str}\n
             Answer in form of news article"""
