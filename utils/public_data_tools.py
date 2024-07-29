@@ -141,7 +141,7 @@ def load_create_public_data_simple_store():
     from llama_index.core.prompts import PromptTemplate
 
     qa_prompt_abstract = PromptTemplate(
-        n3p.public_data_prompt
+        n3p.public_data_prompt_hr
 
     )
 
@@ -152,7 +152,7 @@ def load_create_public_data_simple_store():
 
     c_abstract_tool = QueryEngineTool(query_engine=c_abstrract_qe, metadata=ToolMetadata(
             name="public_company_data",
-            description="this tool finds company public information using company name"
+            description="ovaj alat daje informacije o tvrtki, koristeći naziv tvrtke"
         ))
 
     return c_abstract_tool

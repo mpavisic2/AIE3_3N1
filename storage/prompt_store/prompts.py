@@ -107,20 +107,31 @@ class N3Prompts:
             Analyse company financial trend if data is provided in the context\n
             Query: {query_str}\n
             Answer in form of news article"""
+        self.public_data_prompt_hr = """Niže je naveden kontektst.\n
+            ---------------------\n
+            {context_str}\n
+            ---------------------\n
+            Korištenjem informacija iz konteksta, a ne tvog prethodnog znanja, 
+            Pronađi javne podatke o kompaniji ukoliko je općenit upit o kompaniji\n
+            U slučaju specifičnog upita potraži samo odgovor na njih\n
+            Query: {query_str}\n
+            Odgovori u formi natuknica"""
         self.customer_360_tool = {"sql_report_prompt":f"""
             find avg for arpa, voice usage, discount, count of subscribers and overshoot 
             by tariff_model for oib
             """}
+        self.c_360_en = """ this tool gives customer 360 overview in Croatian language, input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
+        output of each part (public data, internal data, news) should not be longer than one 250 tokens """
         self.nnn_agent = """
-            Pozdrav, ja sam asistent za managere, kako ti mogu pomoći! 
+            Ti si veseli asistent za managere! 
             
-            Pružam informacije na globalnoj razini ili prema OIB-u, ovisno o upitu.
+            Pružaš informacije na globalnoj razini ili prema OIB-u, ovisno o upitu.
 
-            Ako OIB ili naziv nije dostupan u podacima, vratit ću 'nema informacija'.
-            Ako je upit vezan uz određenu tvrtku, prvo koristim company_name_and_id_finder za pronalaženje podataka o tvrtki, a zatim nastavim s daljnjim koracima!
-            Ako upit sadrži OIB, prvo koristim funkciju oib2name, a zatim nastavim s daljnjim koracima!
+            Ako OIB ili naziv nije dostupan u podacima, vratit ćeš 'nema informacija'.
+            Ako je upit vezan uz određenu tvrtku, prvo koristiš company_name_and_id_finder za pronalaženje podataka o tvrtki, a zatim nastavljaš s daljnjim koracima!
+            Ako upit sadrži OIB, prvo koristi funkciju oib2name, a zatim nastavi s daljnjim koracima!
             
-            Unos za svaki alat trebao bi biti u obliku npr. {'oib':'1111111111', 'naziv':'Neka tvrtka'}
+            Unos za svaki alat trebao bi biti u obliku npr. {'oib':'1111111111', 'naziv':'Neka tvrtka', 'metapodaci':'direktor tvrtke'}
             
             sql_tool: Imaj na umu da su subscriber_id i customer_id ID kolone, a ne kvantitativne kolone! Uvijek koristi OIB kao unos za sql_tool.
             Ako upit traži 360, odgovori sirovim izlazom iz customer_360_view, ali ga formatiraj kao markdown.
@@ -128,6 +139,23 @@ class N3Prompts:
             U slučaju pogreške, uvijek traži više informacija i predloži koje informacije možeš pružiti iz dostupnog seta alata.
             Konačan odgovor treba biti na hrvatskom jeziku.
             """
+        self.nnn_agent_nmhr = """
+            Ti si veseli asistent za managere! 
+            
+            Pružaš informacije na globalnoj razini ili prema OIB-u, ovisno o upitu.
+
+            Ako OIB ili naziv nije dostupan u podacima, vratit ćeš 'nema informacija'.
+            Ako je upit vezan uz određenu tvrtku, prvo koristiš company_name_and_id_finder za pronalaženje podataka o tvrtki, a zatim nastavljaš s daljnjim koracima!
+            Ako upit sadrži OIB, prvo koristi funkciju oib2name, a zatim nastavi s daljnjim koracima!
+            
+            Unos za svaki alat trebao bi biti u obliku npr. {'oib':'1111111111', 'naziv':'Neka tvrtka', 'metapodaci':'direktor tvrtke'}
+            
+            sql_tool: Imaj na umu da su subscriber_id i customer_id ID kolone, a ne kvantitativne kolone! Uvijek koristi OIB kao unos za sql_tool.
+            Ako upit traži 360, odgovori sirovim izlazom iz customer_360_view.
+
+            U slučaju pogreške, uvijek traži više informacija i predloži koje informacije možeš pružiti iz dostupnog seta alata.
+            """
+        
 
     def get_sql_report_prompt(self, qry):
         self.customer_360_tool["sql_report_prompt"]=f"""

@@ -417,5 +417,469 @@
             0.7927079995784297
         ],
         "feedback": "negative"
+    },
+    {
+        "question": "Ukratko se predstavi i ponudi pomo\u0107",
+        "answer": "Pozdrav! Ja sam asistent za managere i ovdje sam kako bih vam pomogao s informacijama o tvrtkama, pregledom podataka o korisnicima i pretragom vijesti. Mogu pru\u017eiti informacije na globalnoj razini ili prema OIB-u, ovisno o va\u0161em upitu. \n\nEvo nekih stvari s kojima vam mogu pomo\u0107i:\n- Prona\u0107i javne informacije o tvrtkama.\n- Prona\u0107i informacije o tvrtki pomo\u0107u OIB-a.\n- Pru\u017eiti pregled podataka o odre\u0111enim korisnicima (360 pregled).\n- Prona\u0107i i sa\u017eeti vijesti o tvrtkama.\n- Analizirati interne podatke o korisnicima.\n\nKako vam mogu pomo\u0107i danas?",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "koje informacije ima\u0161 javne o tvrtki kofein",
+        "answer": "Evo nekoliko javno dostupnih informacija o tvrtki KOFEIN d.o.o.:\n\n- **Naziv tvrtke:** KOFEIN d.o.o.\n- **OIB:** 57993674442\n- **Sedi\u0161te:** Pavleti\u0107eva 1, Zagreb\n- **Djelatnost:** Ogla\u0161avanje i promotivne usluge (NKD 73.11)\n- **Godina osnivanja:** 2012.\n- **Vlasni\u0161tvo:** 100% doma\u0107i kapital\n\n**Financijski pokazatelji:**\n- **Prihod 2022.:** \u20ac1,240,266 (rast od \u20ac104,542 u odnosu na 2021.)\n- **Prihod 2023.:** \u20ac1,175,124 (pad od \u20ac65,142 u odnosu na 2022.)\n- **Neto dobit 2023.:** \u20ac103,065\n- **Neto mar\u017ea 2023.:** 8.77%\n\n**Zaposlenici:**\n- **Broj zaposlenih 2023.:** 27 (smanjenje broja zaposlenih u odnosu na prethodnu godinu)\n\nKOFEIN d.o.o. je zabilje\u017eio rast prihoda od 2021. do 2022. godine, no 2023. bilje\u017ei blagi pad prihoda. Unato\u010d padu, kompanija ostaje profitabilna i pokazuje sna\u017enu neto mar\u017eu. Smanjenje broja zaposlenih sugerira strate\u0161ke prilagodbe u poslovanju.\n\nZa detaljnije informacije mo\u017eete posjetiti njihov profil na [Poslovna](https://poslovna.hr/lite/kofein/1297341/subjekti.aspx).\n\nKako vam jo\u0161 mogu pomo\u0107i?",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "kofein"
+            },
+            {
+                "input": "KOFEIN d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.",
+            "oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.",
+            "OIB : 57993674442,\nAdresa : Zagreb, Pavleti\u0107eva 1,\nTelefon : 01 3378680,\nTelefaks : 01 3378688,\nWeb : www.kofein.hr,\nNaziv_subjekta : KOFEIN d.o.o.,\nPodnaslov_subjekta : KOFEIN dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za promid\u017ebu i usluge\\nTijelo : Trgova\u010dki sud u Zagrebu,\nGodina osnivanja : 2012,\nRegistracijski broj : 080793189,\nDjelatnost : 73.11 Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007),\nVeli\u010dina : - mali (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Tomislav Kraja\u010di\u0107', 'rola': 'direktor'}\n\ntitle : KOFEIN d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci - Poslovna,\nhref : https://poslovna.hr/lite/kofein/1297341/subjekti.aspx,\nbody : KOFEIN d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 1.240.266,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 104.542,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.135.724,00 \u20ac. Poslovni subjekt je teku\u0107e godine poslovao s neto dobiti, dok je ...\n\nDokument: \n\nPoslovni subjekt KOFEIN d.o.o. registriran je za djelatnost Agencije za promid\u017ebu (reklamu i propagandu) (73.11). KOFEIN d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nKOFEIN d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 1.175.124,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -65.142,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.240.266,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. KOFEIN d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 103.065,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 8,77%.\r\nPoslovni subjekt KOFEIN d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 27 zaposlenika.",
+            "Adresa : Zagreb, Vrbani\u0107eva 18,\nNaziv_subjekta : KOE, VL. DAVOR KOSOVAC,\nPodnaslov_subjekta : KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANI\u0106EVA 18\\nTijelo : -,\nGodina osnivanja : 2021,\nRegistracijski broj : 98237632,\nDjelatnost : 46.19 Posredovanje u trgovini raznovrsnim proizvodima (NKD 2007),\nodgovorna_osoba : {'ime': 'Davor Kosovac', 'rola': 'vlasnik'}\n\ntitle : Koe, Obrt Za Trgovinu I Usluge, Vl. Davor Kosovac, Zagreb, Vrbani\u0107eva 18,\nhref : https://www.poslovna.hr/lite/koe,-vl-davor-kosovac/1673327/subjekti.aspx,\nbody : KOE, VL. DAVOR KOSOVAC , Zagreb Djelatnost: posredovanje u trgovini raznovrsnim proizvodima. Prihodi, dobit, bilanca, prikaz poslovanja za KOE, VL. DAVOR KOSOVAC ..."
+        ],
+        "context_score": [
+            0.8394378764894136,
+            0.7955077446002187,
+            0.8998870587509299,
+            0.8537171687279124
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Ukratko se predstavi i ponudi pomo\u0107",
+        "answer": "Pozdrav! Ja sam va\u0161 digitalni asistent za managere. Pru\u017eam razne informacije i usluge vezane uz poslovanje tvrtki, uklju\u010duju\u0107i:\n\n1. **Pretraga podataka o tvrtkama** - mogu prona\u0107i osnovne i javne podatke o tvrtkama koriste\u0107i naziv ili OIB.\n2. **Financijski i poslovni pregledi** - mogu pru\u017eiti sveobuhvatne preglede tvrtki, uklju\u010duju\u0107i informacije o prihodima, rashodima, teku\u0107im poslovnim aktivnostima i sli\u010dno.\n3. **Analiza korisnika i mobilnih podataka** - mogu analizirati podatke o mobilnim korisnicima, uklju\u010duju\u0107i broj pretplatnika, prosje\u010dne tro\u0161kove i druge relevantne informacije.\n4. **Vijesti i doga\u0111anja** - mogu prona\u0107i i sa\u017eeti najnovije vijesti i doga\u0111anja vezana uz odre\u0111ene tvrtke.\n\nKako vam mogu danas pomo\u0107i?",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "koliko priklju\u010daka ova trvtka ima",
+        "answer": "Tvrtka **KOFEIN d.o.o.** ima ukupno 12 priklju\u010daka.\n\nKako vam jo\u0161 mogu pomo\u0107i?",
+        "used_tool": [
+            "sql-query"
+        ],
+        "raw_input": [
+            {
+                "input": "SELECT count(subscriber_id) FROM mobile_customer_base WHERE oib = '57993674442'"
+            }
+        ],
+        "context": [
+            "[(12,)]"
+        ],
+        "context_score": [
+            null
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Postoji li tvrtka kofein u tvojoj bazi i tko je direktor tvrtke?",
+        "answer": "Tvrtka **KOFEIN d.o.o.** postoji u mojoj bazi. Direktor tvrtke je **Tomislav Kraja\u010di\u0107**.\n\nAko treba\u0161 dodatne informacije ili pomo\u0107 s drugim upitima, slobodno mi se obrati!",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "kofein"
+            },
+            {
+                "input": "KOFEIN d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.",
+            "oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.",
+            "OIB : 57993674442,\nAdresa : Zagreb, Pavleti\u0107eva 1,\nTelefon : 01 3378680,\nTelefaks : 01 3378688,\nWeb : www.kofein.hr,\nNaziv_subjekta : KOFEIN d.o.o.,\nPodnaslov_subjekta : KOFEIN dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za promid\u017ebu i usluge\\nTijelo : Trgova\u010dki sud u Zagrebu,\nGodina osnivanja : 2012,\nRegistracijski broj : 080793189,\nDjelatnost : 73.11 Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007),\nVeli\u010dina : - mali (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Tomislav Kraja\u010di\u0107', 'rola': 'direktor'}\n\ntitle : KOFEIN d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci - Poslovna,\nhref : https://poslovna.hr/lite/kofein/1297341/subjekti.aspx,\nbody : KOFEIN d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 1.240.266,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 104.542,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.135.724,00 \u20ac. Poslovni subjekt je teku\u0107e godine poslovao s neto dobiti, dok je ...\n\nDokument: \n\nPoslovni subjekt KOFEIN d.o.o. registriran je za djelatnost Agencije za promid\u017ebu (reklamu i propagandu) (73.11). KOFEIN d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nKOFEIN d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 1.175.124,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -65.142,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.240.266,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. KOFEIN d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 103.065,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 8,77%.\r\nPoslovni subjekt KOFEIN d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 27 zaposlenika.",
+            "Adresa : Zagreb, Vrbani\u0107eva 18,\nNaziv_subjekta : KOE, VL. DAVOR KOSOVAC,\nPodnaslov_subjekta : KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANI\u0106EVA 18\\nTijelo : -,\nGodina osnivanja : 2021,\nRegistracijski broj : 98237632,\nDjelatnost : 46.19 Posredovanje u trgovini raznovrsnim proizvodima (NKD 2007),\nodgovorna_osoba : {'ime': 'Davor Kosovac', 'rola': 'vlasnik'}\n\ntitle : Koe, Obrt Za Trgovinu I Usluge, Vl. Davor Kosovac, Zagreb, Vrbani\u0107eva 18,\nhref : https://www.poslovna.hr/lite/koe,-vl-davor-kosovac/1673327/subjekti.aspx,\nbody : KOE, VL. DAVOR KOSOVAC , Zagreb Djelatnost: posredovanje u trgovini raznovrsnim proizvodima. Prihodi, dobit, bilanca, prikaz poslovanja za KOE, VL. DAVOR KOSOVAC ..."
+        ],
+        "context_score": [
+            0.8394378764894136,
+            0.7955077446002187,
+            0.8998870587509299,
+            0.8537171687279124
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Molim 360 pogled za ovu kompaniju",
+        "answer": "### 360 Pregled tvrtke KOFEIN d.o.o.\n\n#### Javni podaci\n\n**KOFEIN d.o.o.** je privatna tvrtka sa sjedi\u0161tem u Zagrebu, specijalizirana za ogla\u0161avanje i promotivne usluge. Osnovana je 2012. godine, a direktor je Tomislav Kraja\u010di\u0107. Tvrtka posluje pod \u0161ifrom djelatnosti 73.11 i smje\u0161tena je na adresi Pavleti\u0107eva 1, Zagreb.\n\n**Financijski pregled:**\n- **2022:** Prihodi: \u20ac1,240,266 (porast za \u20ac104,542 u odnosu na 2021.)\n- **2023:** Prihodi: \u20ac1,175,124 (pad za \u20ac65,142 u odnosu na 2022.)\n- **Neto dobit 2023:** \u20ac103,065\n- **Neto mar\u017ea 2023:** 8.77%\n\n**Zaposlenici:**\n- **2023:** 27 zaposlenika (pad u broju zaposlenika)\n\n**Kontakt:**\n- **Telefon:** 01 3378680\n- **Web stranica:** [www.kofein.hr](http://www.kofein.hr)\n\n#### Interni podaci\n\n**Analiza tarifa:**\n\n| Tarifa | Broj priklju\u010daka | Prosje\u010dno prekora\u010denje | Prosje\u010dna upotreba glasa | Prosje\u010dna upotreba roaminga |\n|--------|------------------|------------------------|--------------------------|----------------------------|\n| L      | 3                | 27.14%                 | 1388.0                   | 427.33                     |\n| M      | 4                | 13.19%                 | 2816.0                   | 200.0                      |\n| S      | 1                | 24.00%                 | 973.0                    | 219.0                      |\n| XL     | 4                | 4.23%                  | 1849.0                   | 181.25                     |\n\n**Trendovi prihoda i priklju\u010daka:**\n- **ARPA 2024:** 46.28 (negativan trend od -4%)\n- **Ukupan prihod 2024:** 6664.2 (negativan trend od -4%)\n- **Ukupno priklju\u010daka:** 12\n- **Ugovori isti\u010du:** 3 za 3 mjeseca, 1 za 6 mjeseci\n\n#### Vijesti o KOFEIN d.o.o.\n\n1. Novi ured agencije Kofein u Zagrebu zami\u0161ljen je kao multifunkcionalan prostor (jutarnji.hr).\n2. Agencija Kofein pro\u0161irila je kadar anga\u017eiranjem novog client service direktora i art direktora (novac.jutarnji.hr).\n\nAko imate dodatnih pitanja ili trebate jo\u0161 informacija, slobodno se obratite!",
+        "used_tool": [
+            "customer_360_new"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    {
+                        "oib": "57993674442",
+                        "naziv": "KOFEIN d.o.o."
+                    }
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "Molim 360 pogled za ovu kompaniju",
+        "answer": "### 360 Pregled tvrtke KOFEIN d.o.o.\n\n#### Javni podaci\n\n**KOFEIN d.o.o.** je privatna tvrtka sa sjedi\u0161tem u Zagrebu, specijalizirana za ogla\u0161avanje i promotivne usluge. Osnovana je 2012. godine, a direktor je Tomislav Kraja\u010di\u0107. Tvrtka posluje pod \u0161ifrom djelatnosti 73.11 i smje\u0161tena je na adresi Pavleti\u0107eva 1, Zagreb.\n\n**Financijski pregled:**\n- **2022:** Prihodi: \u20ac1,240,266 (porast za \u20ac104,542 u odnosu na 2021.)\n- **2023:** Prihodi: \u20ac1,175,124 (pad za \u20ac65,142 u odnosu na 2022.)\n- **Neto dobit 2023:** \u20ac103,065\n- **Neto mar\u017ea 2023:** 8.77%\n\n**Zaposlenici:**\n- **2023:** 27 zaposlenika (pad u broju zaposlenika)\n\n**Kontakt:**\n- **Telefon:** 01 3378680\n- **Web stranica:** [www.kofein.hr](http://www.kofein.hr)\n\n#### Interni podaci\n\n**Analiza tarifa:**\n\n| Tarifa | Broj priklju\u010daka | Prosje\u010dno prekora\u010denje | Prosje\u010dna upotreba glasa | Prosje\u010dna upotreba roaminga |\n|--------|------------------|------------------------|--------------------------|----------------------------|\n| L      | 3                | 27.14%                 | 1388.0                   | 427.33                     |\n| M      | 4                | 13.19%                 | 2816.0                   | 200.0                      |\n| S      | 1                | 24.00%                 | 973.0                    | 219.0                      |\n| XL     | 4                | 4.23%                  | 1849.0                   | 181.25                     |\n\n**Trendovi prihoda i priklju\u010daka:**\n- **ARPA 2024:** 46.28 (negativan trend od -4%)\n- **Ukupan prihod 2024:** 6664.2 (negativan trend od -4%)\n- **Ukupno priklju\u010daka:** 12\n- **Ugovori isti\u010du:** 3 za 3 mjeseca, 1 za 6 mjeseci\n\n#### Vijesti o KOFEIN d.o.o.\n\n1. Novi ured agencije Kofein u Zagrebu zami\u0161ljen je kao multifunkcionalan prostor (jutarnji.hr).\n2. Agencija Kofein pro\u0161irila je kadar anga\u017eiranjem novog client service direktora i art direktora (novac.jutarnji.hr).\n\nAko imate dodatnih pitanja ili trebate jo\u0161 informacija, slobodno se obratite!",
+        "used_tool": [
+            "customer_360_new"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    {
+                        "oib": "57993674442",
+                        "naziv": "KOFEIN d.o.o."
+                    }
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "Pojavljuje li se na portalu jutarnji.hr?",
+        "answer": "1. Novi ured poznate doma\u0107e agencije Kofein u Zagrebu zami\u0161ljen je kao radni prostor, ali i kao galerija, kino, kafi\u0107 te mjesto za zabavu i odmor (jutarnji.hr).\n2. Kreativna zagreba\u010dka agencija Kofein ovih je dana pro\u0161irila svoj kadar anga\u017emanom Silvije Zidari\u0107 na poziciji client service direktorice i Kre\u0161imira Lastri\u0107a kao novog art direktora (novac.jutarnji.hr).\n\nOstali rezultati pretrage ne sadr\u017ee relevantne informacije o agenciji Kofein.",
+        "used_tool": [
+            "search_company_news"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    "KOFEIN d.o.o. site:jutarnji.hr"
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "Molim 360 pogled za ovu kompaniju",
+        "answer": "### 360 Pregled za KOFEIN d.o.o.\n\n#### Javni podaci\n**KOFEIN d.o.o.** je privatna agencija specijalizirana za ogla\u0161avanje i promotivne usluge, osnovana 2012. godine sa sjedi\u0161tem u Pavleti\u0107evoj 1, Zagreb. Direktor tvrtke je Tomislav Kraja\u010di\u0107.\n\n**Financijski u\u010dinak:**\n- **2022. godina:** Prihod od \u20ac1,240,266 (rast od \u20ac104,542 u odnosu na 2021.)\n- **2023. godina:** Prihod od \u20ac1,175,124 (pad od \u20ac65,142 u odnosu na 2022.), neto rezultat od \u20ac103,065 (neto mar\u017ea 8.77%)\n\n**Ljudski resursi:** \n- 2023. godine broj zaposlenih je smanjen na 27.\n\n**Struktura i vlasni\u0161tvo:**\n- Financirano 100% doma\u0107im kapitalom.\n\nZa vi\u0161e informacija, posjetite njihov profil na [poslovna.hr](https://poslovna.hr/lite/kofein/1297341/subjekti.aspx).\n\n#### Interni podaci\n**Analiza tarifa:**\n| Tarifa | Ukupan broj priklju\u010daka | Prosje\u010dno prekora\u010denje | Prosje\u010dna upotreba glasa | Prosje\u010dna upotreba roaminga | Mje\u0161avina tarifa |\n|--------|-------------------------|------------------------|--------------------------|----------------------------|------------------|\n| L      | 3                       | 27.14%                 | 1388.0                   | 427.33                     | 25.00%           |\n| M      | 4                       | 13.19%                 | 2816.0                   | 200.00                     | 33.33%           |\n| S      | 1                       | 24.00%                 | 973.0                    | 219.00                     | 8.33%            |\n| XL     | 4                       | 4.23%                  | 1849.0                   | 181.25                     | 33.33%           |\n\n**Trendovi prihoda i priklju\u010daka:**\n- **ARPA 2024:** 46.28 (pad od 4%)\n- **Ukupni prihod 2024:** 6664.2 (pad od 4%)\n- **Priklju\u010dci:** 12 ukupno, 3 priklju\u010dka isti\u010du za 3 mjeseca, 1 za 6 mjeseci\n\n#### Vijesti o KOFEIN d.o.o.\n1. Novi ured poznate doma\u0107e agencije Kofein u Zagrebu zami\u0161ljen je kao ugodan radni prostor te kao galerija, kino, kafi\u0107, i mjesto za zabavu i odmor (jutarnji.hr)\n2. Kreativna agencija Kofein ostvarila je zamije\u0107en poslovni uspjeh u manje od godinu dana te zapo\u0161ljava 17 radnika, a njihov kreativni odjel uspje\u0161no prolazi pitcheve i natje\u010daje (netokracija.com).\n3. Kofein d.o.o. je krajnji primatelj financijskog instrumenta sufinanciranog iz Europskog fonda za regionalni razvoj u sklopu Operativnog programa \"Konkurentnost i kohezija\" (kofein.hr).\n\nAko treba\u0161 jo\u0161 neke informacije, slobodno mi reci!",
+        "used_tool": [
+            "customer_360_new"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    {
+                        "oib": "57993674442",
+                        "naziv": "KOFEIN d.o.o."
+                    }
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "Koliko ta tvrtka ima priklju\u010daka?",
+        "answer": "Tvrtka KOFEIN d.o.o. ima ukupno 12 priklju\u010daka.\n\nAko su ti potrebne dodatne informacije ili pomo\u0107, slobodno mi se obrati!",
+        "used_tool": [
+            "sql-query"
+        ],
+        "raw_input": [
+            {
+                "input": "SELECT COUNT(subscriber_id) as number_of_subscribers FROM mobile_customer_base WHERE oib = '57993674442';"
+            }
+        ],
+        "context": [
+            "[(12,)]"
+        ],
+        "context_score": [
+            null
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Postoji li tvrtka kofein u tvojoj bazi i tko je direktor tvrtke?",
+        "answer": "Tvrtka **KOFEIN d.o.o.** postoji u mojoj bazi. Direktor tvrtke je **Tomislav Kraja\u010di\u0107**.\n\nTvrtka se bavi ogla\u0161avanjem i promocijom te je uspjela odr\u017eati dobar financijski u\u010dinak unato\u010d izazovima na tr\u017ei\u0161tu. Ako trebate dodatne informacije ili pomo\u0107, slobodno mi se obratite!",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "kofein"
+            },
+            {
+                "input": "KOFEIN d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.",
+            "oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.",
+            "OIB : 57993674442,\nAdresa : Zagreb, Pavleti\u0107eva 1,\nTelefon : 01 3378680,\nTelefaks : 01 3378688,\nWeb : www.kofein.hr,\nNaziv_subjekta : KOFEIN d.o.o.,\nPodnaslov_subjekta : KOFEIN dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za promid\u017ebu i usluge\\nTijelo : Trgova\u010dki sud u Zagrebu,\nGodina osnivanja : 2012,\nRegistracijski broj : 080793189,\nDjelatnost : 73.11 Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007),\nVeli\u010dina : - mali (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Tomislav Kraja\u010di\u0107', 'rola': 'direktor'}\n\ntitle : KOFEIN d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci - Poslovna,\nhref : https://poslovna.hr/lite/kofein/1297341/subjekti.aspx,\nbody : KOFEIN d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 1.240.266,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 104.542,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.135.724,00 \u20ac. Poslovni subjekt je teku\u0107e godine poslovao s neto dobiti, dok je ...\n\nDokument: \n\nPoslovni subjekt KOFEIN d.o.o. registriran je za djelatnost Agencije za promid\u017ebu (reklamu i propagandu) (73.11). KOFEIN d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nKOFEIN d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 1.175.124,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -65.142,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.240.266,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. KOFEIN d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 103.065,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 8,77%.\r\nPoslovni subjekt KOFEIN d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 27 zaposlenika.",
+            "Adresa : Zagreb, Vrbani\u0107eva 18,\nNaziv_subjekta : KOE, VL. DAVOR KOSOVAC,\nPodnaslov_subjekta : KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANI\u0106EVA 18\\nTijelo : -,\nGodina osnivanja : 2021,\nRegistracijski broj : 98237632,\nDjelatnost : 46.19 Posredovanje u trgovini raznovrsnim proizvodima (NKD 2007),\nodgovorna_osoba : {'ime': 'Davor Kosovac', 'rola': 'vlasnik'}\n\ntitle : Koe, Obrt Za Trgovinu I Usluge, Vl. Davor Kosovac, Zagreb, Vrbani\u0107eva 18,\nhref : https://www.poslovna.hr/lite/koe,-vl-davor-kosovac/1673327/subjekti.aspx,\nbody : KOE, VL. DAVOR KOSOVAC , Zagreb Djelatnost: posredovanje u trgovini raznovrsnim proizvodima. Prihodi, dobit, bilanca, prikaz poslovanja za KOE, VL. DAVOR KOSOVAC ..."
+        ],
+        "context_score": [
+            0.8394378764894136,
+            0.7955077446002187,
+            0.8998870587509299,
+            0.8537171687279124
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Ukratko se predstavi i ponudi pomo\u0107",
+        "answer": "### Pozdrav! \ud83d\udc4b\n\nJa sam va\u0161 virtualni asistent za managere. Evo kako vam mogu pomo\u0107i:\n\n- **Informacije o tvrtkama:** Mogu brzo prona\u0107i javne i interne podatke o tvrtkama, kao i najnovije vijesti.\n- **Financijske analize:** Pru\u017eam detaljne financijske preglede i trendove za tvrtke.\n- **Podaci o korisnicima:** Mogu analizirati podatke o korisnicima, uklju\u010duju\u0107i broj priklju\u010daka, prosje\u010dne tro\u0161kove i druge metrike.\n- **Vijesti i novosti:** Prona\u0111em najnovije vijesti vezane uz odre\u0111ene tvrtke.\n\nUpravo sam prikupio detaljne podatke za tvrtku **PETROL & GAS d.o.o.**. Ako trebate vi\u0161e informacija ili pomo\u0107 s ne\u010dim drugim, slobodno mi se obratite!",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "Postoji li tvrtka kofein u tvojoj bazi i tko je direktor tvrtke?",
+        "answer": "Tvrtka **KOFEIN d.o.o.** postoji u mojoj bazi. Direktor tvrtke je **Tomislav Kraja\u010di\u0107**. \n\nAko trebate dodatne informacije o tvrtki ili neku drugu pomo\u0107, slobodno mi se obratite.",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "kofein"
+            },
+            {
+                "input": "KOFEIN d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.",
+            "oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.",
+            "OIB : 57993674442,\nAdresa : Zagreb, Pavleti\u0107eva 1,\nTelefon : 01 3378680,\nTelefaks : 01 3378688,\nWeb : www.kofein.hr,\nNaziv_subjekta : KOFEIN d.o.o.,\nPodnaslov_subjekta : KOFEIN dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za promid\u017ebu i usluge\\nTijelo : Trgova\u010dki sud u Zagrebu,\nGodina osnivanja : 2012,\nRegistracijski broj : 080793189,\nDjelatnost : 73.11 Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007),\nVeli\u010dina : - mali (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Tomislav Kraja\u010di\u0107', 'rola': 'direktor'}\n\ntitle : KOFEIN d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci - Poslovna,\nhref : https://poslovna.hr/lite/kofein/1297341/subjekti.aspx,\nbody : KOFEIN d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 1.240.266,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 104.542,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.135.724,00 \u20ac. Poslovni subjekt je teku\u0107e godine poslovao s neto dobiti, dok je ...\n\nDokument: \n\nPoslovni subjekt KOFEIN d.o.o. registriran je za djelatnost Agencije za promid\u017ebu (reklamu i propagandu) (73.11). KOFEIN d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nKOFEIN d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 1.175.124,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -65.142,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.240.266,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. KOFEIN d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 103.065,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 8,77%.\r\nPoslovni subjekt KOFEIN d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 27 zaposlenika.",
+            "Adresa : Zagreb, Vrbani\u0107eva 18,\nNaziv_subjekta : KOE, VL. DAVOR KOSOVAC,\nPodnaslov_subjekta : KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANI\u0106EVA 18\\nTijelo : -,\nGodina osnivanja : 2021,\nRegistracijski broj : 98237632,\nDjelatnost : 46.19 Posredovanje u trgovini raznovrsnim proizvodima (NKD 2007),\nodgovorna_osoba : {'ime': 'Davor Kosovac', 'rola': 'vlasnik'}\n\ntitle : Koe, Obrt Za Trgovinu I Usluge, Vl. Davor Kosovac, Zagreb, Vrbani\u0107eva 18,\nhref : https://www.poslovna.hr/lite/koe,-vl-davor-kosovac/1673327/subjekti.aspx,\nbody : KOE, VL. DAVOR KOSOVAC , Zagreb Djelatnost: posredovanje u trgovini raznovrsnim proizvodima. Prihodi, dobit, bilanca, prikaz poslovanja za KOE, VL. DAVOR KOSOVAC ..."
+        ],
+        "context_score": [
+            0.8394378764894136,
+            0.7955077446002187,
+            0.8998870587509299,
+            0.8537171687279124
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "Ukratko se predstavi i ponudi pomo\u0107",
+        "answer": "Pozdrav, ja sam asistent za managere. Tu sam da vam pomognem s informacijama o tvrtkama, analizama podataka, pretragom vijesti i mnogim drugim zadacima. \n\nAko imate upit o odre\u0111enoj tvrtki, mo\u017eete mi pru\u017eiti OIB ili naziv tvrtke, a ja \u0107u vam prona\u0107i relevantne informacije. Mo\u017eemo razgovarati o podacima iz poslovnih i javnih izvora, vijestima, mobilnim korisnicima i mnogim drugim aspektima.\n\nKako vam mogu pomo\u0107i danas?",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "dalje",
+        "answer": "Super! Kako vam mogu konkretno pomo\u0107i? Mo\u017eete mi postaviti upit o odre\u0111enoj tvrtki, navesti OIB ili naziv tvrtke, ili mi jednostavno re\u0107i \u0161to vas zanima. Na primjer, mogu vam pomo\u0107i s:\n\n- Provjerom osnovnih informacija o odre\u0111enoj tvrtki\n- Pregledom javnih i internih podataka o tvrtki\n- Dohva\u0107anjem najnovijih vijesti o tvrtki\n\nSamo mi dajte vi\u0161e informacija i odmah \u0107emo krenuti!",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "kako jo\u0161",
+        "answer": "Evo nekoliko konkretnih primjera u \u010demu vam mogu pomo\u0107i:\n\n1. **Informacije o tvrtki**: Ako imate naziv tvrtke ili OIB, mogu vam pru\u017eiti osnovne informacije o tvrtki, uklju\u010duju\u0107i adresu, vlasnike, financijske izvje\u0161taje itd.\n\n2. **360 pregled tvrtke**: Mogu vam osigurati pregled tvrtke iz svih kutova, uklju\u010duju\u0107i javne podatke, interne podatke i najnovije vijesti.\n\n3. **Statisti\u010dki podaci**: Ako vas zanimaju statisti\u010dki podaci kao \u0161to su broj pretplatnika, mjese\u010dne naknade ili ARPU (prosje\u010dni prihod po korisniku), mogu vam pomo\u0107i s tim podacima.\n\n4. **Vijesti o tvrtki**: Mogu potra\u017eiti i sa\u017eeti najnovije vijesti o odre\u0111enoj tvrtki.\n\n5. **Interni podaci**: Ako imate OIB tvrtke, mogu dohvatiti i interne podatke vezane uz tvrtku.\n\nRecite mi \u0161to vas zanima ili pru\u017eite naziv tvrtke ili OIB, i bit \u0107u sretan da vam pomognem!",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "javni podatci tvrtke petrol",
+        "answer": "Evo javnih podataka za tvrtku **PETROL & GAS d.o.o.**:\n\n- **Naziv**: PETROL & GAS d.o.o.\n- **OIB**: 60770198608\n- **Adresa**: Rovinj, Domenico Segalla 8\n- **Telefon**: 052 816984\n- **Telefaks**: 052 216633\n- **Podnaslov subjekta**: PETROL & GAS d.o.o. za savjetovanje i in\u017eenjering u gospodarstvu\n- **Tijelo**: Trgova\u010dki sud u Pazinu\n- **Godina osnivanja**: 1997\n- **Registracijski broj**: 080165637\n- **Djelatnost**: 70.22 Savjetovanje u vezi s poslovanjem i ostalim upravljanjem (NKD 2007)\n- **Veli\u010dina**: Mikro (prema novom zakonu)\n- **Porijeklo kapitala**: 100% doma\u0107i kapital\n- **Odgovorna osoba**: Korado Sergovi\u0107, oec. (\u010dlan uprave)\n- **Ukupni godi\u0161nji prihod 2021.**: 106.465,33 \u20ac\n- **Ukupni godi\u0161nji prihod 2023.**: 40,00 \u20ac\n- **Neto rezultat poslovanja 2023.**: -301,00 \u20ac\n- **Neto mar\u017ea 2023.**: -750,84%\n- **Broj zaposlenih 2023.**: 0 zaposlenika\n- **Poslovanje posljednje dvije godine**: 2021. s dobiti, 2023. s gubitkom\n- **Web stranica**: [PETROL & GAS d.o.o. - poslovna.hr](https://www.poslovna.hr/lite/petrol-gas-(do-2010-)/193038/subjekti.aspx)\n\nAko trebate dodatne informacije, slobodno mi recite!",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "Petrol"
+            },
+            {
+                "input": "PETROL & GAS d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 60770198608, naziv: PETROL & GAS d.o.o.",
+            "oib (vat_id): 62920797760, naziv: M.B.M BEZINA d. o. o.",
+            "OIB : 60770198608,\nAdresa : Rovinj, Domenico Segalla 8,\nTelefon : 052 816984,\nTelefaks : 052 216633,\nNaziv_subjekta : PETROL & GAS d.o.o.,\nPodnaslov_subjekta : PETROL & GAS d.o.o. za savjetovanje i in\u017eenjering u gospodarstvu\\nTijelo : Trgova\u010dki sud u Pazinu,\nGodina osnivanja : 1997,\nRegistracijski broj : 080165637,\nDjelatnost : 70.22 Savjetovanje u vezi s poslovanjem i ostalim upravljanjem (NKD 2007),\nVeli\u010dina : - mikro (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Korado Sergovi\u0107, oec.', 'rola': '\u010dlan uprave'}\n\ntitle : PETROL & GAS d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci,\nhref : https://www.poslovna.hr/lite/petrol-gas-(do-2010-)/193038/subjekti.aspx,\nbody : PETROL & GAS d.o.o. je 2021. ostvario ukupni godi\u0161nji prihod u iznosu od 106.465,33 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 86.801,12 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 19.664,21 \u20ac. Poslovni subjekt je tokom posljednje dvije godine poslovao s dobiti.\n\nDokument: \n\nPoslovni subjekt PETROL & GAS d.o.o. registriran je za djelatnost Savjetovanje u vezi s poslovanjem i ostalim upravljanjem (70.22). PETROL & GAS d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nPETROL & GAS d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 40,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -6.025,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 6.065,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s gubitkom. PETROL & GAS d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od -301,00 \u20ac dok je ostvarena neto mar\u017ea iznosila -750,84%.\r\nPoslovni subjekt PETROL & GAS d.o.o. u 2023. nije pove\u0107avao ni smanjivao broj zaposlenih, a imao je 0 zaposlenika.",
+            "OIB : 70801780777,\nAdresa : Koprivnica, Vinica 35,\nNaziv_subjekta : MARKOIL d.o.o.,\nPodnaslov_subjekta : MARKOIL dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za trgovinu i usluge\\nTijelo : Trgova\u010dki sud u Bjelovaru,\nGodina osnivanja : 2015,\nRegistracijski broj : 070134222,\nDjelatnost : 49.41 Cestovni prijevoz robe (NKD 2007),\nVeli\u010dina : - mikro (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Damir Marku\u0161i\u0107', 'rola': 'direktor'}\n\ntitle : MARKOIL d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci,\nhref : https://www.poslovna.hr/lite/markoil/1500691/subjekti.aspx,\nbody : MARKOIL d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 524.384,37 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -263.688,23 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 788.072,60 \u20ac. Poslovni subjekt je tokom posljednje dvije godine poslovao s dobiti.\n\nDokument: \n\nPoslovni subjekt MARKOIL d.o.o. registriran je za djelatnost Cestovni prijevoz robe (49.41). MARKOIL d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju je smanjio iznos temeljnog kapitala.\r\nMARKOIL d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 388.164,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -136.220,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 524.384,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. MARKOIL d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 14.351,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 3,70%.\r\nPoslovni subjekt MARKOIL d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 3 zaposlenika."
+        ],
+        "context_score": [
+            0.8267719215940764,
+            0.7806870099056652,
+            0.9136337648906799,
+            0.846527461743396
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "daj mi 360 za ovu tvrtku",
+        "answer": "## Javni podaci\n- **Naziv subjekta:** UGOSTITELJSTVO ' STUBI\u010cANKA ' vl. STJEPAN PUTAK\n- **Vlasnik:** Stjepan Putak\n- **Adresa:** Golubove\u010dka 36A, Donja Stubica\n\n## Interni podaci\n### Analiza Tarifa\n| Tarifa | Ukupan broj priklju\u010daka | Prosje\u010dno prekora\u010denje | Prosje\u010dna upotreba glasa | Prosje\u010dna upotreba roaminga | Mje\u0161avina tarifa (%) |\n|--------|-------------------------|------------------------|--------------------------|----------------------------|----------------------|\n| L      | 22                      | 16.58%                 | 2406.23                  | 238.27                     | 21.36                |\n| M      | 36                      | 10.72%                 | 2227.31                  | 230.36                     | 34.95                |\n| S      | 24                      | 18.11%                 | 2317.00                  | 228.58                     | 23.30                |\n| XL     | 21                      | 20.18%                 | 2323.43                  | 236.71                     | 20.39                |\n\n### Financijska Analiza\nU 2024. godini, o\u010dekivani prihod iznosi 49,056.48, uz trend rasta od 4%. Broj priklju\u010daka u bazi iznosi 103, dok 28 priklju\u010daka ima ugovor koji isti\u010de za 3 mjeseca, a 15 priklju\u010daka za 6 mjeseci. Ovi podaci ukazuju na stabilan rast i potencijalne izazove u zadr\u017eavanju korisnika.\n\n## UGOSTITELJSTVO ' STUBI\u010cANKA ' vl. STJEPAN PUTAK u vijestima\nNa\u017ealost, dostupni rezultati pretrage ne sadr\u017ee konkretne vijesti o tvrtki Ugostiteljstvo Stubi\u010danka, stoga ne mogu pru\u017eiti klju\u010dne novosti ili doga\u0111aje vezane za nju. Pru\u017eam osnovne informacije koje su dostupne:\n\n1. Tvrtka Ugostiteljstvo Stubi\u010danka bavi se djelatnostima pripreme i uslu\u017eivanja pi\u0107a (mojatvrtka.net).\n2. Osnovana je 2003. godine, a vlasnik je Stjepan Putak (mojatvrtka.net).\n3. Nalazi se u Donjoj Stubici, Golubove\u010dka 36a (poslovna.hr).\n4. Klju\u010dna osoba je vlasnik, Stjepan Putak (mojatvrtka.net).\n5. Ugostiteljstvo Stubi\u010danka nudi usluge barova i buffeta (poslovna.hr).",
+        "used_tool": [
+            "customer_360_new"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    {
+                        "oib": "88989562890",
+                        "naziv": "UGOSTITELJSTVO ' STUBI\u010cANKA ' vl. STJEPAN PUTAK, DONJA STUBICA, GOLUBOVE\u010cKA 36A"
+                    }
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "zanemari, imam drugo pitanje",
+        "answer": "Naravno, slobodno postavi svoje pitanje! Tu sam da pomognem.",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
+    },
+    {
+        "question": "miss 21/90, pojavljuje li se u vijestima",
+        "answer": "Na temelju dostavljenih rezultata pretrage o firmi nisu prona\u0111ene relevantne informacije. Evo sa\u017eetak povezanih vijesti o izborima za Miss:\n\n1. Lucija Begi\u0107 (21) izabrana je za Miss Zagreba za Miss Hrvatske 2022. (24sata)\n2. Marija (90) osvojila je titulu Miss Marindvora po drugi put. (24sata)\n3. Natjecateljica Leona Maro\u0161i izjavila je da se ne\u0161to sumnjivo dogodilo tijekom izbora za Miss Hrvatske zbog \u010dega nije pobijedila. (24sata)\n4. Ve\u010deras se odr\u017eava finale izbora za Miss Hrvatske, gdje \u0107e biti izabrana 27. Miss Hrvatske. (jutarnji.hr)\n5. Hrvatska predstavnica Lucija Begi\u0107 plasirala se u Top 40 na izboru za Miss svijeta i pobijedila u kategoriji sporta. (maxportal.hr)",
+        "used_tool": [
+            "search_company_news"
+        ],
+        "raw_input": [
+            {
+                "args": [
+                    "miss 21/90"
+                ],
+                "kwargs": {}
+            }
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "negative"
+    },
+    {
+        "question": "tko je odgovrna osoba u tvrtki kofein",
+        "answer": "## Informacije o tvrtki: KOFEIN d.o.o.\n\n- **Naziv:** KOFEIN d.o.o.\n- **OIB:** 57993674442\n- **Adresa:** Zagreb, Pavleti\u0107eva 1\n- **Telefon:** 01 3378680\n- **Telefaks:** 01 3378688\n- **Web:** [www.kofein.hr](http://www.kofein.hr)\n- **Godina osnivanja:** 2012\n- **Registracijski broj:** 080793189\n- **Djelatnost:** Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007 - 73.11)\n- **Veli\u010dina:** Mali (prema novom zakonu)\n- **Porijeklo kapitala:** 100% doma\u0107i kapital - izvor FINA\n\n**Financijski podaci:**\n\n- **Prihodi (2023):** 1.175.124,00 \u20ac\n- **Prihodi (2022):** 1.240.266,00 \u20ac (relativna promjena: -65.142,00 \u20ac)\n- **Neto rezultat poslovanja (2023):** 103.065,00 \u20ac\n- **Neto mar\u017ea (2023):** 8,77%\n- **Broj zaposlenih (2023):** 27 (smanjen u odnosu na prethodne godine)\n\n**Odgovorna osoba:**\n\n- **Ime:** Tomislav Kraja\u010di\u0107\n- **Rola:** direktor\n\nZa dodatne informacije mo\u017eete posjetiti [ovaj link](https://poslovna.hr/lite/kofein/1297341/subjekti.aspx).",
+        "used_tool": [
+            "company_name_and_id_finder",
+            "public_company_data"
+        ],
+        "raw_input": [
+            {
+                "input": "Kofein"
+            },
+            {
+                "input": "KOFEIN d.o.o."
+            }
+        ],
+        "context": [
+            "oib (vat_id): 57993674442, naziv: KOFEIN d.o.o.",
+            "oib (vat_id): 54242816396, naziv: KOLADU j.d.o.o.",
+            "OIB : 57993674442,\nAdresa : Zagreb, Pavleti\u0107eva 1,\nTelefon : 01 3378680,\nTelefaks : 01 3378688,\nWeb : www.kofein.hr,\nNaziv_subjekta : KOFEIN d.o.o.,\nPodnaslov_subjekta : KOFEIN dru\u0161tvo s ograni\u010denom odgovorno\u0161\u0107u za promid\u017ebu i usluge\\nTijelo : Trgova\u010dki sud u Zagrebu,\nGodina osnivanja : 2012,\nRegistracijski broj : 080793189,\nDjelatnost : 73.11 Agencije za promid\u017ebu (reklamu i propagandu) (NKD 2007),\nVeli\u010dina : - mali (prema novom zakonu),\nPorijeklo kapitala : 00% doma\u0107i kapital - izvor FINA,\nodgovorna_osoba : {'ime': 'Tomislav Kraja\u010di\u0107', 'rola': 'direktor'}\n\ntitle : KOFEIN d.o.o.- prihod, dobit, zaposleni, analiza, kontakt podaci - Poslovna,\nhref : https://poslovna.hr/lite/kofein/1297341/subjekti.aspx,\nbody : KOFEIN d.o.o. je 2022. ostvario ukupni godi\u0161nji prihod u iznosu od 1.240.266,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od 104.542,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.135.724,00 \u20ac. Poslovni subjekt je teku\u0107e godine poslovao s neto dobiti, dok je ...\n\nDokument: \n\nPoslovni subjekt KOFEIN d.o.o. registriran je za djelatnost Agencije za promid\u017ebu (reklamu i propagandu) (73.11). KOFEIN d.o.o. je  u privatnom vlasni\u0161tvu. Temeljni kapital poslovnog subjekta financiran je 100% doma\u0107im kapitalom, a u prethodnom razdoblju nije mijenjao iznos temeljnog kapitala.\r\nKOFEIN d.o.o. je 2023. ostvario ukupni godi\u0161nji prihod u iznosu od 1.175.124,00 \u20ac \u0161to predstavlja relativnu promjenu ukupnih prihoda od -65.142,00 \u20ac u odnosu na prethodno razdoblje kada je poslovni subjekt ostvario ukupne godi\u0161nje prihode u iznosu od 1.240.266,00 \u20ac.\r\nPoslovni subjekt je tokom posljednje dvije godine poslovao s dobiti. KOFEIN d.o.o. je u 2023. ostvario neto rezultat poslovanja u iznosu od 103.065,00 \u20ac dok je ostvarena neto mar\u017ea iznosila 8,77%.\r\nPoslovni subjekt KOFEIN d.o.o. u 2023. smanjivao je broj zaposlenih, a imao je 27 zaposlenika.",
+            "Adresa : Zagreb, Vrbani\u0107eva 18,\nNaziv_subjekta : KOE, VL. DAVOR KOSOVAC,\nPodnaslov_subjekta : KOE, OBRT ZA TRGOVINU I USLUGE, VL. DAVOR KOSOVAC, ZAGREB, VRBANI\u0106EVA 18\\nTijelo : -,\nGodina osnivanja : 2021,\nRegistracijski broj : 98237632,\nDjelatnost : 46.19 Posredovanje u trgovini raznovrsnim proizvodima (NKD 2007),\nodgovorna_osoba : {'ime': 'Davor Kosovac', 'rola': 'vlasnik'}\n\ntitle : Koe, Obrt Za Trgovinu I Usluge, Vl. Davor Kosovac, Zagreb, Vrbani\u0107eva 18,\nhref : https://www.poslovna.hr/lite/koe,-vl-davor-kosovac/1673327/subjekti.aspx,\nbody : KOE, VL. DAVOR KOSOVAC , Zagreb Djelatnost: posredovanje u trgovini raznovrsnim proizvodima. Prihodi, dobit, bilanca, prikaz poslovanja za KOE, VL. DAVOR KOSOVAC ..."
+        ],
+        "context_score": [
+            0.8234635221230993,
+            0.7920695443819427,
+            0.8998870587509299,
+            0.8537171687279124
+        ],
+        "feedback": "positive"
+    },
+    {
+        "question": "imam za drugu tvrtku upit",
+        "answer": "Naravno, slobodno postavite pitanje ili navedite naziv ili OIB tvrtke za koju trebate informacije.",
+        "used_tool": [
+            "n/a"
+        ],
+        "raw_input": [
+            "n/a"
+        ],
+        "context": [
+            "n/a"
+        ],
+        "context_score": 0,
+        "feedback": "positive"
     }
 ]

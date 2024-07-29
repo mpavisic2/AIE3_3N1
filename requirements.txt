@@ -9,3 +9,4 @@ llama-index-vector-stores-qdrant
 qdrant-client
 spacy
 openpyxl
+aiosqlite

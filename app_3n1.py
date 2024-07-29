@@ -1,11 +1,13 @@
 # You can find this code for Chainlit python streaming here (https://docs.chainlit.io/concepts/streaming/python)
 
 import chainlit as cl  # importing chainlit for our app
-from dotenv import load_dotenv
-
-from utils.nnn_tools import agent2
 import os
 import json
+os.environ["NO_PROXY"]="api.openai.com,openai.com,plaform.openai.com,duckduckgo.com"
+from dotenv import load_dotenv
+
+# from utils.nnn_tools import agent2
+from utils.nnn_tools_a360 import agent2
 
 @cl.set_starters
 async def set_starters():
@@ -45,6 +47,15 @@ def read_json_file(file_path):
 def write_json_file(file_path, data):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
+
+async def rm_button():
+
+    # Remove feedback buttons
+    feedback_buttons = cl.user_session.get("feedback_buttons")
+    if feedback_buttons:
+        for button in feedback_buttons:
+            await button.remove()
+
 
 # Define the feedback button callback
 @cl.action_callback("feedback_button")
@@ -86,6 +97,7 @@ async def main(message: cl.Message):
     chain = cl.user_session.get("chain")
 
     resp1 = await chain.achat(message.content)
+    await rm_button()
 
     resp=resp1.response
 

@@ -37,13 +37,20 @@ from llama_index.core.prompts import PromptTemplate
 
 from storage.prompt_store.prompts import N3Prompts
 import logging
-from utils.db_tools import internal_data_tool_360, engine2, Base, MobileCustomerBase
+from utils.db_tools_async import internal_data_tool_360, engine, Base, MobileCustomerBase, generate_context_for_internal_data_async, id_sync
 from sqlalchemy.orm import sessionmaker
 from utils.public_data_tools import pick_abstract_tool
+import asyncio
 
-Session = sessionmaker(bind=engine2)
+Session = sessionmaker(bind=engine)
 session = Session()
-Base.metadata.create_all(engine2)
+#Base.metadata.create_all(engine)
+async def create_tables():
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+
+# Run the table creation
+#asyncio.run(create_tables())
 
 
 n3p = N3Prompts()
@@ -310,51 +317,6 @@ web_search_tool = FunctionTool.from_defaults(fn=search_web, name="search_company
 
 ## 04. company abtract
 
-poslovna_documents = ["OIB: {} -> {}".format(i,public_data[i]["poslovna.hr"]["abstract"]) for i in list(public_data.keys()) if public_data[i]["poslovna.hr"]["abstract"]!='']
-
-
-vdb_output_cid_abstract = "./storage/cache/company_abstract/"
-#cid_path = "data/cids/"
-
-#token_counter = TokenCountingHandler(
-#    tokenizer = tiktoken.encoding_for_model("text-embedding-ada-002").encode,
-#    verbose=True
-#)
-
-#callback_manager = CallbackManager([token_counter])
-
-#service_context = ServiceContext.from_defaults(callback_manager = callback_manager)
-
-
-try:
-    # loading from disk
-    storage_context_abstract = StorageContext.from_defaults(persist_dir=vdb_output_cid_abstract)
-    index_abstract = load_index_from_storage(storage_context_abstract)
-    print('loading from disk')
-except:
-    documents_abstract = [Document(text=t) for t in poslovna_documents] #SimpleDirectoryReader(cid_path).load_data()
-    # generating embeddings - default model openai ada
-    index_abstract = VectorStoreIndex.from_documents(documents_abstract, service_context=service_context) # ,show_progress=True)
-    index_abstract.storage_context.persist(persist_dir=vdb_output_cid_abstract)
-    print('persisting to disk')
-
-from llama_index.core.prompts import PromptTemplate
-
-qa_prompt_abstract = PromptTemplate(
-    n3p.public_data_prompt
-
-)
-
-abstract_qa_template = qa_prompt_abstract
-
-
-c_abstrract_qe = index_abstract.as_query_engine(text_qa_template=abstract_qa_template)
-
-#c_abstract_tool = QueryEngineTool(query_engine=c_abstrract_qe, metadata=ToolMetadata(
-#        name="public_company_data",
-#        description="this tool finds company public information using company name"
-#    ))
-
 
 c_abstract_tool = pick_abstract_tool()
 
@@ -364,96 +326,78 @@ c_abstract_tool = pick_abstract_tool()
 from llama_index.core.tools import FunctionTool
 
 
-def internal_data(qry):
-    """          
-            Alat treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
-            ako korigiraš upit pokreni taj korigirani upit
-            output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
-            input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
 
-    """
+async def sync_function_wrapper(func, *args):
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(None, func, *args)
 
-
-    input_prompt = """          
-            Alat treba izračunati  prosjek overshoota , ukupan broj priključaka, prosjek voice usage-a, prosjek roaming usage koristeći group by tariff_model i filter po oib = {qry['oib']}
-            ako korigiraš upit pokreni taj korigirani upit
-            output funkcije moraju biti podatci iz baze, ne informacija o nemogućnosti dohvata podataka
-            input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
-    """
-
-    resp_id = sql_tool.call("{} - {}".format(qry, input_prompt))
-
-    return resp_id
-
-internal_tool = FunctionTool.from_defaults(fn=internal_data, name="internal_data_tool", return_direct=True)
 
 
 ## 05. customer 360
 
-def customer_360_new(qry):
+async def customer_360_new(qry):
 
     """
-    this tool gives customer 360 overview in Croatian language, input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}
-    output of each part (public data, internal data, news) should not be longer than one 250 tokens
+    ovaj alat daje pregled firme od 360 stupnjeva, ulaz alata je u formatu biblioteke npr. {{'oib': '1111111111','naziv': 'Naziv firme'}}
+    odgovor svakog od alata (public data, internal data, news) ne smije biti duži od 250 tokena
+    ne prikazuj vcijesti sa stranica: poslovna.hr, infobiz.fina.hr, fininfo.hr
+
+    odgovor je u formatu:
+
+    ## Javni podaci
+    {resp_public_data}
+
+    ## Interni podaci
+    {resp_id}
+
+    ## {qry['naziv']} u vijestima
+    {resp_news_data}
+
+
     """
     #print(qry)
     #qry_dv =f"find avg for arpa, voice usage, discount, count of subscribers and overshoot and group by tariff_model and filter by oib = {qry['oib']}"
     #qry_dv = n3p.get_sql_report_prompt(qry)
     
     # resp_id = sql_tool.call(qry_dv)
-
-    resp_id = internal_data_tool_360(qry['oib'])
-
-
-    resp_news_data = web_search_tool.call(qry['naziv'])
-
-
-
-    resp_public_data = c_abstrract_qe.query(qry["naziv"]).response
-
-    result = f"""## Public data 
-
-{resp_public_data}
-
-## Internal data
-
-{resp_id}
+    # Wrap synchronous functions in async wrappers
+    internal_data_task = asyncio.create_task(generate_context_for_internal_data_async(qry['oib']))
+    news_data_task = asyncio.create_task(sync_function_wrapper(web_search_tool, qry['naziv']))
     
-## {qry['naziv']} in news
-{resp_news_data}
-"""
+    # Call asynchronous function directly
+    public_data_task = asyncio.create_task(sync_function_wrapper(c_abstract_tool, qry['naziv']))
+
+    # Await all tasks to complete
+    resp_id = await internal_data_task
+    resp_news_data = await news_data_task
+    resp_public_data = await public_data_task
+    #resp_id = id_sync(qry)
+
+
+    ## Interni podaci\n{resp_id}\n
+    #result = f"""## Javni podaci\n{resp_public_data}\n## {qry['naziv']} u vijestima\n{resp_news_data}"""
     
-    return result
+    return resp_id, resp_news_data, resp_public_data
 
 tool_360 = FunctionTool.from_defaults(customer_360_new, 
     name="customer_360_new", 
     #description="this tool gives customer 360 overview in Croatian language, input of tool is dict in form of e.g. {{'oib': '1111111111','naziv': 'Naziv firme'}}",
-    return_direct=False)
+    return_direct=False,
+    async_fn=customer_360_new
+    
+    )
 
 # 06. build agenta
 
 from llama_index.core.agent import FunctionCallingAgentWorker, ReActAgent
 
+import inspect
+
 agent_worker2 = FunctionCallingAgentWorker.from_tools(
-    tools=[sql_tool, cid_qe_tool, tool_oib2name, c_abstract_tool, tool_360, web_search_tool, internal_tool],
+    tools=[sql_tool, cid_qe_tool, tool_oib2name, c_abstract_tool, tool_360, web_search_tool],
     verbose=True,
-    system_prompt=n3p.nnn_agent
+    system_prompt=n3p.nnn_agent_nmhr
 )
-agent_worker_360 = FunctionCallingAgentWorker.from_tools(
-    tools=[cid_qe_tool,tool_360],
-    verbose=True,
-    system_prompt="""
-    If query is related to certain company, first use company_name_and_id_finder to find company data then proceed with other steps! 
-    Input to each tool should be in form of e.g. {'oib':'1111111111', 'naziv':'Neka tvrtka'}
-    If query asks for 360, respond with raw output of the customer_360_new.
-    Always return raw output of 360 function without rewriting it.
-
-    I case of error always asks for more information and propose what info you can give from available toolset
-    Final answer should be in Croatian language
-    """
-)
-
-agent_360 = agent_worker_360.as_agent()
 
 
 agent2 = agent_worker2.as_agent()
